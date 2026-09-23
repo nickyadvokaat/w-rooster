@@ -51,7 +51,7 @@ function foldLine(line: string): string {
   chunks.push(line.substring(0, maxLength));
   let i = maxLength;
   while (i < line.length) {
-    chunks.push(' ' + line.substring(i, i + maxLength - 1));
+    chunks.push(` ${line.substring(i, i + maxLength - 1)}`);
     i += maxLength - 1;
   }
   return chunks.join('\r\n');
@@ -70,7 +70,7 @@ function getMatchDates(duty: DutyAssignment): { start: Date; end: Date } {
     parseInt(dayStr, 10),
     parseInt(hourStr, 10),
     parseInt(minStr, 10),
-    0
+    0,
   );
 
   // Default waterpolo match duration: 50 minutes
@@ -81,7 +81,10 @@ function getMatchDates(duty: DutyAssignment): { start: Date; end: Date } {
 /**
  * Generate a complete RFC 5545 iCalendar string for a list of duties
  */
-export function generateIcs(personName: string, duties: DutyAssignment[]): string {
+export function generateIcs(
+  personName: string,
+  duties: DutyAssignment[],
+): string {
   const now = new Date();
   const dtStamp = formatUtcTimestamp(now);
 
@@ -140,18 +143,24 @@ export function generateIcs(personName: string, duties: DutyAssignment[]): strin
 
   lines.push('END:VCALENDAR');
 
-  return lines.map(foldLine).join('\r\n') + '\r\n';
+  return `${lines.map(foldLine).join('\r\n')}\r\n`;
 }
 
 /**
  * Trigger download of the generated .ics file in browser
  */
-export function downloadIcsFile(personName: string, duties: DutyAssignment[]): void {
+export function downloadIcsFile(
+  personName: string,
+  duties: DutyAssignment[],
+): void {
   const icsContent = generateIcs(personName, duties);
   const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
   const url = URL.createObjectURL(blob);
-  
-  const sanitizedName = personName.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-');
+
+  const sanitizedName = personName
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, '-')
+    .replace(/-+/g, '-');
   const filename = `w-rooster-${sanitizedName}.ics`;
 
   const link = document.createElement('a');

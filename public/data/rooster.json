@@ -58,9 +58,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Arethusa H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Iris",
       "rawText": "Iris"
     },
@@ -71,9 +69,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Arethusa H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
@@ -84,11 +80,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Arethusa H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Syb",
       "rawText": "Syb"
     },
@@ -99,11 +91,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "Watervlo GO10-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["Scheidsrechter", "Toezichthouder", "Reanimatie"],
       "person": "Esmay",
       "rawText": "Esmay"
     },
@@ -114,9 +102,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "Watervlo GO10-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Ouders",
       "rawText": "Ouder"
     },
@@ -127,9 +113,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Antoinique",
       "rawText": "Antoinique"
     },
@@ -140,11 +124,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Esmay",
       "rawText": "Esmay"
     },
@@ -155,9 +135,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Maud",
       "rawText": "Maud"
     },
@@ -168,9 +146,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Victor",
       "rawText": "Victor"
     },
@@ -181,9 +157,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Gerrit Sr",
       "rawText": "Gerrit Sr"
     },
@@ -194,9 +168,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Toezichthouder"
-      ],
+      "roles": ["Toezichthouder"],
       "person": "Kiara",
       "rawText": "Kiara"
     },
@@ -207,10 +179,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Reanimatie"],
       "person": "Quint",
       "rawText": "Quint"
     },
@@ -221,9 +190,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Stephan",
       "rawText": "Stephan"
     },
@@ -234,9 +201,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Tjerk",
       "rawText": "Tjerk"
     },
@@ -247,9 +212,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Gerrit Sr",
       "rawText": "Gerrit Sr"
     },
@@ -260,9 +223,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Toezichthouder"
-      ],
+      "roles": ["Toezichthouder"],
       "person": "Nicky",
       "rawText": "Nicky"
     },
@@ -273,10 +234,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Reanimatie"],
       "person": "Quint",
       "rawText": "Quint"
     },
@@ -287,9 +245,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Stephan",
       "rawText": "Stephan"
     },
@@ -300,9 +256,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Tjerk",
       "rawText": "Tjerk"
     },
@@ -313,9 +267,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "DBD Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Toezichthouder"
-      ],
+      "roles": ["Toezichthouder"],
       "person": "Gerrit",
       "rawText": "Gerrit"
     },
@@ -326,10 +278,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "DBD Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Reanimatie"],
       "person": "Gerrit Jr",
       "rawText": "Gerrit Jr"
     },
@@ -340,9 +289,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "DBD Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Henk",
       "rawText": "Henk"
     },
@@ -353,9 +300,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "DBD Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Henny",
       "rawText": "Henny"
     },
@@ -366,11 +311,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Z&PC De Gouwe H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Jasmijn",
       "rawText": "Jasmijn"
     },
@@ -381,9 +322,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Z&PC De Gouwe H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
@@ -394,9 +333,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Z&PC De Gouwe H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Laura",
       "rawText": "Laura"
     },
@@ -407,11 +344,7 @@
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "Z&PC De Gouwe H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Jasmijn",
       "rawText": "Jasmijn"
     },
@@ -422,9 +355,7 @@
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "Z&PC De Gouwe H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
@@ -435,9 +366,7 @@
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "Z&PC De Gouwe H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Laura",
       "rawText": "Laura"
     },
@@ -448,11 +377,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "Polarbears GO10-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Scheidsrechter",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["Scheidsrechter", "Toezichthouder", "Reanimatie"],
       "person": "Gerrit Jr",
       "rawText": "Gerrit Jr"
     },
@@ -463,9 +388,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "Polarbears GO10-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Ouders",
       "rawText": "Ouders"
     },
@@ -476,9 +399,7 @@
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "UZSC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Chiel",
       "rawText": "Chiel"
     },
@@ -489,11 +410,7 @@
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "UZSC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Gerrit Jr",
       "rawText": "Gerrit Jr"
     },
@@ -504,9 +421,7 @@
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "UZSC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Ouders",
       "rawText": "Ouders"
     },
@@ -517,9 +432,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "TZC-Vahalis GO14-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Chiel",
       "rawText": "Chiel"
     },
@@ -530,11 +443,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "TZC-Vahalis GO14-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Marcel Bru",
       "rawText": "Marcel Bru"
     },
@@ -545,9 +454,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "TZC-Vahalis GO14-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Ouders",
       "rawText": "Ouders"
     },
@@ -558,9 +465,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "De Vuursche GO16-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Daniël R",
       "rawText": "Daniël R"
     },
@@ -571,9 +476,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "De Vuursche GO16-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Gerrit Sr",
       "rawText": "Gerrit Sr"
     },
@@ -584,9 +487,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "De Vuursche GO16-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Henny",
       "rawText": "Henny"
     },
@@ -597,11 +498,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "De Vuursche GO16-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Marcel Bru",
       "rawText": "Marcel Bru"
     },
@@ -612,9 +509,7 @@
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "AZC H3",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
@@ -625,11 +520,7 @@
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "AZC H3",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Jeanette S.",
       "rawText": "Jeanette S., Jeanette S"
     },
@@ -640,9 +531,7 @@
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "AZC H3",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Stephan",
       "rawText": "Stephan"
     },
@@ -653,9 +542,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "ZVDO'74 H4",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Esmay",
       "rawText": "Esmay"
     },
@@ -666,9 +553,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "ZVDO'74 H4",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Gerrit Sr",
       "rawText": "Gerrit Sr"
     },
@@ -679,9 +564,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "ZVDO'74 H4",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Kiara",
       "rawText": "Kiara"
     },
@@ -692,11 +575,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "ZVDO'74 H4",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Laura",
       "rawText": "Laura"
     },
@@ -707,9 +586,7 @@
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Vuursche H1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Esmay",
       "rawText": "Esmay"
     },
@@ -720,9 +597,7 @@
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Vuursche H1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Kiara",
       "rawText": "Kiara"
     },
@@ -733,11 +608,7 @@
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Vuursche H1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Laura",
       "rawText": "Laura"
     },
@@ -748,9 +619,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "ZV Haerlem H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
@@ -761,11 +630,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "ZV Haerlem H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Jeanette S.",
       "rawText": "Jeanette S., Jeanette S"
     },
@@ -776,9 +641,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "ZV Haerlem H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Rens",
       "rawText": "Rens"
     },
@@ -789,10 +652,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "Zeester-Meerval Da1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Reanimatie"],
       "person": "Gaël",
       "rawText": "Gaël"
     },
@@ -803,9 +663,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "Zeester-Meerval Da1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Toezichthouder"
-      ],
+      "roles": ["Toezichthouder"],
       "person": "Henny",
       "rawText": "Henny"
     },
@@ -816,9 +674,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "Zeester-Meerval Da1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Rick v B.",
       "rawText": "Rick v B."
     },
@@ -829,9 +685,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "Zeester-Meerval Da1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Thymen",
       "rawText": "Thymen"
     },
@@ -842,9 +696,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "DZT'62 H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
@@ -855,10 +707,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "DZT'62 H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["Toezichthouder", "Reanimatie"],
       "person": "Kyra",
       "rawText": "Kyra + Nicky"
     },
@@ -869,9 +718,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "DZT'62 H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Lucas",
       "rawText": "Lucas"
     },
@@ -882,10 +729,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "DZT'62 H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["Toezichthouder", "Reanimatie"],
       "person": "Nicky",
       "rawText": "Kyra + Nicky"
     },
@@ -896,9 +740,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "DZT'62 H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Thymo",
       "rawText": "Thymo"
     },
@@ -909,9 +751,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "UZSC GO10-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Lucas",
       "rawText": "Lucas"
     },
@@ -922,9 +762,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "UZSC GO10-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Ouders",
       "rawText": "Ouders"
     },
@@ -935,9 +773,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "UZSC GO10-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Reanimatie"
-      ],
+      "roles": ["Reanimatie"],
       "person": "Sjoerd",
       "rawText": "Sjoerd"
     },
@@ -948,9 +784,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "UZSC GO10-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Thymo",
       "rawText": "Thymo"
     },
@@ -961,9 +795,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "UZSC GO10-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Toezichthouder"
-      ],
+      "roles": ["Toezichthouder"],
       "person": "Timon",
       "rawText": "Timon"
     },
@@ -974,9 +806,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "De Treffers GO14-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Henny",
       "rawText": "Henny"
     },
@@ -987,11 +817,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "De Treffers GO14-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Nicky",
       "rawText": "Nicky"
     },
@@ -1002,9 +828,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "De Treffers GO14-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Rik",
       "rawText": "Rik"
     },
@@ -1015,9 +839,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "BZC Brandenburg GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Henny",
       "rawText": "Henny"
     },
@@ -1028,9 +850,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "BZC Brandenburg GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Nick",
       "rawText": "Nick"
     },
@@ -1041,11 +861,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "BZC Brandenburg GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Nicky",
       "rawText": "Nicky"
     },
@@ -1056,9 +872,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "BZC Brandenburg GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Rik",
       "rawText": "Rik"
     },
@@ -1069,9 +883,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "De Albatros H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Gerrit Sr",
       "rawText": "Gerrit Sr"
     },
@@ -1082,9 +894,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "De Albatros H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Nick",
       "rawText": "Nick"
     },
@@ -1095,10 +905,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "De Albatros H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Reanimatie"],
       "person": "Sjoerd",
       "rawText": "Sjoerd"
     },
@@ -1109,10 +916,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "De Albatros H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder"
-      ],
+      "roles": ["W-tafel", "Toezichthouder"],
       "person": "Timon",
       "rawText": "Timon"
     },
@@ -1123,9 +927,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "d'Elft/ Wave Da3",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Gerrit Sr",
       "rawText": "Gerrit Sr"
     },
@@ -1136,11 +938,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "d'Elft/ Wave Da3",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Lennart",
       "rawText": "Lennart"
     },
@@ -1151,9 +949,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "d'Elft/ Wave Da3",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Sjoerd",
       "rawText": "Sjoerd"
     },
@@ -1164,9 +960,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "d'Elft/ Wave Da3",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Timon",
       "rawText": "Timon"
     },
@@ -1177,9 +971,7 @@
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Duinkikkers H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette S.",
       "rawText": "Jeanette S."
     },
@@ -1190,10 +982,7 @@
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Duinkikkers H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder"
-      ],
+      "roles": ["W-tafel", "Toezichthouder"],
       "person": "Lisa",
       "rawText": "Lisa"
     },
@@ -1204,10 +993,7 @@
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Duinkikkers H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Reanimatie"],
       "person": "Vera",
       "rawText": "Vera"
     },
@@ -1218,9 +1004,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "Waterpolo de Meierij (SG) Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Daniël R",
       "rawText": "Daniel R"
     },
@@ -1231,9 +1015,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "Waterpolo de Meierij (SG) Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Gaël",
       "rawText": "Gaël"
     },
@@ -1244,11 +1026,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "Waterpolo de Meierij (SG) Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Jeanette S.",
       "rawText": "Jeanette S., Jeanette S"
     },
@@ -1259,10 +1037,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "De Duinkikkers GO10-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Scheidsrechter",
-        "Toezichthouder"
-      ],
+      "roles": ["Scheidsrechter", "Toezichthouder"],
       "person": "Kiara",
       "rawText": "Kiara"
     },
@@ -1273,9 +1048,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "De Duinkikkers GO10-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Ouders",
       "rawText": "Ouders"
     },
@@ -1286,9 +1059,7 @@
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "De Duinkikkers GO10-1",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Reanimatie"
-      ],
+      "roles": ["Reanimatie"],
       "person": "Tosca",
       "rawText": "Tosca"
     },
@@ -1299,10 +1070,7 @@
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "BZC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder"
-      ],
+      "roles": ["W-tafel", "Toezichthouder"],
       "person": "Kiara",
       "rawText": "Kiara"
     },
@@ -1313,10 +1081,7 @@
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "BZC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Scheidsrechter",
-        "Reanimatie"
-      ],
+      "roles": ["Scheidsrechter", "Reanimatie"],
       "person": "Lisanne",
       "rawText": "Lisanne"
     },
@@ -1327,9 +1092,7 @@
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "BZC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Ouders",
       "rawText": "Ouders"
     },
@@ -1340,9 +1103,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "BZC H3",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Chiel",
       "rawText": "Chiel"
     },
@@ -1353,11 +1114,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "BZC H3",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Lisanne",
       "rawText": "Lisanne"
     },
@@ -1368,9 +1125,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "BZC H3",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Maud",
       "rawText": "Maud"
     },
@@ -1381,9 +1136,7 @@
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "BZC H3",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Renee",
       "rawText": "Renee"
     },
@@ -1394,9 +1147,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Z&PC Rotterdam/Ragnar Da6",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Chiel",
       "rawText": "Chiel"
     },
@@ -1407,10 +1158,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Z&PC Rotterdam/Ragnar Da6",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder"
-      ],
+      "roles": ["W-tafel", "Toezichthouder"],
       "person": "Cobe",
       "rawText": "Cobe"
     },
@@ -1421,10 +1169,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Z&PC Rotterdam/Ragnar Da6",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Reanimatie"],
       "person": "Mike",
       "rawText": "Mike"
     },
@@ -1435,9 +1180,7 @@
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Z&PC Rotterdam/Ragnar Da6",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Thymo",
       "rawText": "Thymo"
     },
@@ -1448,9 +1191,7 @@
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Houtrib H2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette S.",
       "rawText": "Jeanette s"
     },
@@ -1461,11 +1202,7 @@
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Houtrib H2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Lisa",
       "rawText": "Lisa"
     },
@@ -1476,9 +1213,7 @@
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Houtrib H2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Vera",
       "rawText": "Vera"
     },
@@ -1489,11 +1224,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "De Treffers Da2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder",
-        "Reanimatie"
-      ],
+      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
       "person": "Gerrit Jr",
       "rawText": "Gerrit Jr"
     },
@@ -1504,9 +1235,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "Aqua-Novio'94 GO14-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Reanimatie"
-      ],
+      "roles": ["Reanimatie"],
       "person": "Michel Stasse",
       "rawText": "Michel Stasse"
     },
@@ -1517,9 +1246,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "Aqua-Novio'94 GO14-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Nick",
       "rawText": "Nick"
     },
@@ -1530,9 +1257,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "Aqua-Novio'94 GO14-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Ouders",
       "rawText": "Ouders"
     },
@@ -1543,9 +1268,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "De Treffers Da2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Rick",
       "rawText": "Rick"
     },
@@ -1556,9 +1279,7 @@
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "De Treffers Da2",
       "pool": "Berenschot Leerdam",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Thymen",
       "rawText": "Thymen"
     },
@@ -1569,10 +1290,7 @@
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "Aqua-Novio'94 GO14-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter",
-        "Toezichthouder"
-      ],
+      "roles": ["Scheidsrechter", "Toezichthouder"],
       "person": "Victor",
       "rawText": "Victor"
     },
@@ -1583,9 +1301,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Gregory",
       "rawText": "Gregory"
     },
@@ -1596,9 +1312,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
@@ -1609,9 +1323,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Reanimatie"
-      ],
+      "roles": ["Reanimatie"],
       "person": "Quint",
       "rawText": "Quint"
     },
@@ -1622,10 +1334,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder"
-      ],
+      "roles": ["W-tafel", "Toezichthouder"],
       "person": "Rens",
       "rawText": "Rens"
     },
@@ -1636,9 +1345,7 @@
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Scheidsrechter"
-      ],
+      "roles": ["Scheidsrechter"],
       "person": "Victor",
       "rawText": "Victor"
     },
@@ -1649,9 +1356,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "SVH H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Gregory",
       "rawText": "Gregory"
     },
@@ -1662,9 +1367,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "SVH H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel"
-      ],
+      "roles": ["W-tafel"],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
@@ -1675,10 +1378,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "SVH H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "W-tafel",
-        "Toezichthouder"
-      ],
+      "roles": ["W-tafel", "Toezichthouder"],
       "person": "Rens",
       "rawText": "Rens"
     },
@@ -1689,9 +1389,7 @@
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "SVH H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": [
-        "Reanimatie"
-      ],
+      "roles": ["Reanimatie"],
       "person": "Robin Klein",
       "rawText": "Robin Klein"
     }

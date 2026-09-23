@@ -1,28 +1,52 @@
 import './style.css';
-import type { DutyRole, RoosterData } from './types.js';
 import { downloadIcsFile } from './ics-builder.js';
+import type { DutyRole, RoosterData } from './types.js';
 
 let roosterData: RoosterData | null = null;
 let selectedPerson: string = '';
 let activeRoleFilter: string = 'all';
 
 // DOM Elements
-const searchInput = document.getElementById('person-search') as HTMLInputElement;
-const clearSearchBtn = document.getElementById('clear-search-btn') as HTMLButtonElement;
-const personSelect = document.getElementById('person-select') as HTMLSelectElement;
+const searchInput = document.getElementById(
+  'person-search',
+) as HTMLInputElement;
+const clearSearchBtn = document.getElementById(
+  'clear-search-btn',
+) as HTMLButtonElement;
+const personSelect = document.getElementById(
+  'person-select',
+) as HTMLSelectElement;
 
-const placeholderState = document.getElementById('placeholder-state') as HTMLElement;
-const personDashboard = document.getElementById('person-dashboard') as HTMLElement;
+const placeholderState = document.getElementById(
+  'placeholder-state',
+) as HTMLElement;
+const personDashboard = document.getElementById(
+  'person-dashboard',
+) as HTMLElement;
 
 const personAvatar = document.getElementById('person-avatar') as HTMLElement;
-const selectedPersonName = document.getElementById('selected-person-name') as HTMLElement;
-const dutiesCountText = document.getElementById('duties-count-text') as HTMLElement;
-const statsChipsContainer = document.getElementById('stats-chips-container') as HTMLElement;
-const downloadIcsBtn = document.getElementById('download-ics-btn') as HTMLButtonElement;
+const selectedPersonName = document.getElementById(
+  'selected-person-name',
+) as HTMLElement;
+const dutiesCountText = document.getElementById(
+  'duties-count-text',
+) as HTMLElement;
+const statsChipsContainer = document.getElementById(
+  'stats-chips-container',
+) as HTMLElement;
+const downloadIcsBtn = document.getElementById(
+  'download-ics-btn',
+) as HTMLButtonElement;
 
-const roleFilterTabs = document.getElementById('role-filter-tabs') as HTMLElement;
-const dutiesListContainer = document.getElementById('duties-list-container') as HTMLElement;
-const lastUpdatedText = document.getElementById('last-updated-text') as HTMLElement;
+const roleFilterTabs = document.getElementById(
+  'role-filter-tabs',
+) as HTMLElement;
+const dutiesListContainer = document.getElementById(
+  'duties-list-container',
+) as HTMLElement;
+const lastUpdatedText = document.getElementById(
+  'last-updated-text',
+) as HTMLElement;
 const seasonBadge = document.getElementById('season-badge') as HTMLElement;
 
 /**
@@ -32,10 +56,28 @@ function formatDutchDate(isoDate: string): string {
   try {
     const [year, month, day] = isoDate.split('-').map(Number);
     const date = new Date(year, month - 1, day);
-    const dayNames = ['Zondag', 'Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag'];
+    const dayNames = [
+      'Zondag',
+      'Maandag',
+      'Dinsdag',
+      'Woensdag',
+      'Donderdag',
+      'Vrijdag',
+      'Zaterdag',
+    ];
     const monthNames = [
-      'jan', 'feb', 'mrt', 'apr', 'mei', 'jun',
-      'jul', 'aug', 'sep', 'okt', 'nov', 'dec'
+      'jan',
+      'feb',
+      'mrt',
+      'apr',
+      'mei',
+      'jun',
+      'jul',
+      'aug',
+      'sep',
+      'okt',
+      'nov',
+      'dec',
     ];
     return `${dayNames[date.getDay()]} ${day} ${monthNames[date.getMonth()]} ${year}`;
   } catch {
@@ -68,10 +110,11 @@ function updatePersonDropdownOptions(filterText: string = '') {
   if (!roosterData) return;
 
   const currentValue = personSelect.value;
-  personSelect.innerHTML = '<option value="">-- Kies een naam uit de lijst --</option>';
+  personSelect.innerHTML =
+    '<option value="">-- Kies een naam uit de lijst --</option>';
 
-  const filtered = roosterData.persons.filter(p =>
-    p.toLowerCase().includes(filterText.toLowerCase().trim())
+  const filtered = roosterData.persons.filter((p) =>
+    p.toLowerCase().includes(filterText.toLowerCase().trim()),
   );
 
   for (const person of filtered) {
@@ -124,7 +167,9 @@ function selectPerson(personName: string, updateUrl: boolean = true) {
 function renderPersonDashboard() {
   if (!roosterData || !selectedPerson) return;
 
-  const personDuties = roosterData.duties.filter(d => d.person === selectedPerson);
+  const personDuties = roosterData.duties.filter(
+    (d) => d.person === selectedPerson,
+  );
 
   // Avatar and Title
   personAvatar.textContent = selectedPerson.charAt(0).toUpperCase();
@@ -133,10 +178,10 @@ function renderPersonDashboard() {
 
   // Count per role
   const roleCounts: Record<DutyRole, number> = {
-    'Scheidsrechter': 0,
+    Scheidsrechter: 0,
     'W-tafel': 0,
-    'Toezichthouder': 0,
-    'Reanimatie': 0,
+    Toezichthouder: 0,
+    Reanimatie: 0,
   };
 
   for (const duty of personDuties) {
@@ -149,11 +194,31 @@ function renderPersonDashboard() {
 
   // Render Stats Chips
   statsChipsContainer.innerHTML = '';
-  const chipsConfig: { role: DutyRole; label: string; chipClass: string; icon: string }[] = [
-    { role: 'Scheidsrechter', label: 'Scheidsrechter', chipClass: 'chip-scheidsrechter', icon: '🟨' },
+  const chipsConfig: {
+    role: DutyRole;
+    label: string;
+    chipClass: string;
+    icon: string;
+  }[] = [
+    {
+      role: 'Scheidsrechter',
+      label: 'Scheidsrechter',
+      chipClass: 'chip-scheidsrechter',
+      icon: '🟨',
+    },
     { role: 'W-tafel', label: 'W-tafel', chipClass: 'chip-wtafel', icon: '⏱️' },
-    { role: 'Toezichthouder', label: 'Toezichthouder', chipClass: 'chip-toezicht', icon: '👁️' },
-    { role: 'Reanimatie', label: 'Reanimatie', chipClass: 'chip-reanimatie', icon: '❤️' },
+    {
+      role: 'Toezichthouder',
+      label: 'Toezichthouder',
+      chipClass: 'chip-toezicht',
+      icon: '👁️',
+    },
+    {
+      role: 'Reanimatie',
+      label: 'Reanimatie',
+      chipClass: 'chip-reanimatie',
+      icon: '❤️',
+    },
   ];
 
   for (const config of chipsConfig) {
@@ -169,10 +234,22 @@ function renderPersonDashboard() {
   // Update Filter Tabs with counts
   const filterTabsConfig = [
     { filter: 'all', label: 'Alle diensten', count: personDuties.length },
-    { filter: 'Scheidsrechter', label: 'Scheidsrechter', count: roleCounts['Scheidsrechter'] },
+    {
+      filter: 'Scheidsrechter',
+      label: 'Scheidsrechter',
+      count: roleCounts.Scheidsrechter,
+    },
     { filter: 'W-tafel', label: 'W-tafel', count: roleCounts['W-tafel'] },
-    { filter: 'Toezichthouder', label: 'Toezichthouder', count: roleCounts['Toezichthouder'] },
-    { filter: 'Reanimatie', label: 'Reanimatie', count: roleCounts['Reanimatie'] },
+    {
+      filter: 'Toezichthouder',
+      label: 'Toezichthouder',
+      count: roleCounts.Toezichthouder,
+    },
+    {
+      filter: 'Reanimatie',
+      label: 'Reanimatie',
+      count: roleCounts.Reanimatie,
+    },
   ];
 
   roleFilterTabs.innerHTML = '';
@@ -193,10 +270,12 @@ function renderPersonDashboard() {
 function renderDutiesList() {
   if (!roosterData || !selectedPerson) return;
 
-  let duties = roosterData.duties.filter(d => d.person === selectedPerson);
+  let duties = roosterData.duties.filter((d) => d.person === selectedPerson);
 
   if (activeRoleFilter !== 'all') {
-    duties = duties.filter(d => d.roles.includes(activeRoleFilter as DutyRole));
+    duties = duties.filter((d) =>
+      d.roles.includes(activeRoleFilter as DutyRole),
+    );
   }
 
   dutiesListContainer.innerHTML = '';
@@ -218,12 +297,16 @@ function renderDutiesList() {
     const poolLower = (duty.pool || '').toLowerCase();
     const isCaribabad = poolLower.includes('caribabad');
     const isBerenschot = poolLower.includes('berenschot');
-    const poolType = isCaribabad ? 'caribabad' : isBerenschot ? 'berenschot' : 'home';
+    const poolType = isCaribabad
+      ? 'caribabad'
+      : isBerenschot
+        ? 'berenschot'
+        : 'home';
     card.setAttribute('data-pool', poolType);
 
     const formattedDate = formatDutchDate(duty.date);
     const roleBadgesHtml = duty.roles
-      .map(role => {
+      .map((role) => {
         const roleBadgeClass = `role-badge-${role.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
         return `<span class="role-badge ${roleBadgeClass}">${role}</span>`;
       })
@@ -273,9 +356,13 @@ function renderDutiesList() {
  */
 async function init() {
   try {
-    const response = await fetch(`${import.meta.env.BASE_URL}data/rooster.json`);
+    const response = await fetch(
+      `${import.meta.env.BASE_URL}data/rooster.json`,
+    );
     if (!response.ok) {
-      throw new Error(`Kon data/rooster.json niet laden: ${response.statusText}`);
+      throw new Error(
+        `Kon data/rooster.json niet laden: ${response.statusText}`,
+      );
     }
     roosterData = await response.json();
 
@@ -293,14 +380,23 @@ async function init() {
     updatePersonDropdownOptions();
 
     // Populate quick suggest chips
-    const quickChipsContainer = document.getElementById('quick-chips-container');
+    const quickChipsContainer = document.getElementById(
+      'quick-chips-container',
+    );
     if (quickChipsContainer && roosterData.persons.length > 0) {
       // Pick a few recognizable names
-      const sampleNames = ['Nicky', 'Kyra', 'Lucas', 'Timon', 'Gerrit Sr', 'Gaël', 'Nick'].filter(
-        name => roosterData!.persons.includes(name)
-      );
+      const sampleNames = [
+        'Nicky',
+        'Rik',
+        'Kiara',
+        'Timon',
+        'Gerrit Sr',
+        'Gaël',
+        'Nick',
+      ].filter((name) => roosterData?.persons.includes(name));
       // If none matched, take the first 6
-      const namesToShow = sampleNames.length > 0 ? sampleNames : roosterData.persons.slice(0, 6);
+      const namesToShow =
+        sampleNames.length > 0 ? sampleNames : roosterData.persons.slice(0, 6);
 
       quickChipsContainer.innerHTML = '';
       for (const name of namesToShow) {
@@ -338,7 +434,7 @@ async function init() {
 
       // If exact match found, select automatically
       const exactMatch = roosterData?.persons.find(
-        p => p.toLowerCase() === query.toLowerCase().trim()
+        (p) => p.toLowerCase() === query.toLowerCase().trim(),
       );
       if (exactMatch) {
         selectPerson(exactMatch);
@@ -354,23 +450,28 @@ async function init() {
 
     downloadIcsBtn.addEventListener('click', () => {
       if (!roosterData || !selectedPerson) return;
-      const personDuties = roosterData.duties.filter(d => d.person === selectedPerson);
+      const personDuties = roosterData.duties.filter(
+        (d) => d.person === selectedPerson,
+      );
       downloadIcsFile(selectedPerson, personDuties);
     });
 
     // Filter tab buttons
     roleFilterTabs.addEventListener('click', (e) => {
-      const button = (e.target as HTMLElement).closest('.filter-tab') as HTMLButtonElement | null;
+      const button = (e.target as HTMLElement).closest(
+        '.filter-tab',
+      ) as HTMLButtonElement | null;
       if (!button) return;
 
       activeRoleFilter = button.getAttribute('data-filter') || 'all';
 
-      roleFilterTabs.querySelectorAll('.filter-tab').forEach(btn => btn.classList.remove('active'));
+      for (const btn of roleFilterTabs.querySelectorAll('.filter-tab')) {
+        btn.classList.remove('active');
+      }
       button.classList.add('active');
 
       renderDutiesList();
     });
-
   } catch (error) {
     console.error('Initialisatiefout:', error);
     placeholderState.innerHTML = `
