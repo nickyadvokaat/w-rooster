@@ -142,8 +142,10 @@ function renderPersonDashboard() {
   };
 
   for (const duty of personDuties) {
-    if (roleCounts[duty.role] !== undefined) {
-      roleCounts[duty.role]++;
+    for (const role of duty.roles) {
+      if (roleCounts[role] !== undefined) {
+        roleCounts[role]++;
+      }
     }
   }
 
@@ -196,7 +198,7 @@ function renderDutiesList() {
   let duties = roosterData.duties.filter(d => d.person === selectedPerson);
 
   if (activeRoleFilter !== 'all') {
-    duties = duties.filter(d => d.role === activeRoleFilter);
+    duties = duties.filter(d => d.roles.includes(activeRoleFilter as DutyRole));
   }
 
   dutiesListContainer.innerHTML = '';
@@ -213,7 +215,7 @@ function renderDutiesList() {
   for (const duty of duties) {
     const card = document.createElement('div');
     card.className = 'duty-card';
-    card.setAttribute('data-role', duty.role);
+    card.setAttribute('data-roles', duty.roles.join(' '));
 
     const poolLower = (duty.pool || '').toLowerCase();
     const isCaribabad = poolLower.includes('caribabad');
@@ -222,7 +224,12 @@ function renderDutiesList() {
     card.setAttribute('data-pool', poolType);
 
     const formattedDate = formatDutchDate(duty.date);
-    const roleBadgeClass = `role-badge-${duty.role.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
+    const roleBadgesHtml = duty.roles
+      .map(role => {
+        const roleBadgeClass = `role-badge-${role.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
+        return `<span class="role-badge ${roleBadgeClass}">${role}</span>`;
+      })
+      .join('');
 
     const isLingeHome = duty.homeTeam.includes('De Linge/PCG');
     const isLingeAway = duty.awayTeam.includes('De Linge/PCG');
@@ -241,7 +248,9 @@ function renderDutiesList() {
           <span class="duty-date">${formattedDate}</span>
           <span class="duty-time">${duty.time} uur</span>
         </div>
-        <span class="role-badge ${roleBadgeClass}">${duty.role}</span>
+        <div class="duty-roles">
+          ${roleBadgesHtml}
+        </div>
       </div>
 
       <div class="match-teams">
@@ -269,7 +278,13 @@ async function init() {
     // Relative path works both in dev and under GitHub Pages base paths
     const response = await fetch('./data/rooster.json');
     if (!response.ok) {
-      throw new Error(`Kon rooster data niet laden: ${response.statusText}`);
+      console.error(`Kon rooster data niet laden: ${response.statusText}`);
+      placeholderState.innerHTML = `
+        <div class="empty-icon">⚠️</div>
+        <h2>Er ging iets mis</h2>
+        <p>Het rooster kon niet geladen worden (${response.statusText}). Controleer of <code>public/data/rooster.json</code> aanwezig is.</p>
+      `;
+      return;
     }
     roosterData = await response.json();
 
@@ -357,8 +372,7 @@ async function init() {
       const button = (e.target as HTMLElement).closest('.filter-tab') as HTMLButtonElement | null;
       if (!button) return;
 
-      const filter = button.getAttribute('data-filter') || 'all';
-      activeRoleFilter = filter;
+      activeRoleFilter = button.getAttribute('data-filter') || 'all';
 
       roleFilterTabs.querySelectorAll('.filter-tab').forEach(btn => btn.classList.remove('active'));
       button.classList.add('active');
@@ -377,4 +391,4 @@ async function init() {
 }
 
 // Start application
-init();
+void init();

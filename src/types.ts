@@ -7,7 +7,7 @@ export interface DutyAssignment {
   homeTeam: string;
   awayTeam: string;
   pool: string;          // e.g. "Caribabad in Gorinchem" or "De Koekoek in Vaassen"
-  role: DutyRole;
+  roles: DutyRole[];     // All roles assigned to this person for this match
   person: string;        // Normalized person name
   rawText?: string;
 }

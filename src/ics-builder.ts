@@ -119,8 +119,10 @@ export function generateIcs(personName: string, duties: DutyAssignment[]): strin
     const endStr = formatIcsDateTime(end);
     const uid = `${duty.id}@w-rooster.delinge-pcg.nl`;
 
-    const summary = `${duty.role}: ${duty.homeTeam} - ${duty.awayTeam}`;
-    const description = `Dienst: ${duty.role}\nWedstrijd: ${duty.homeTeam} vs ${duty.awayTeam}\nDatum: ${duty.date}\nTijd: ${duty.time}\nZwembad: ${duty.pool}`;
+    const rolesSummary = duty.roles.join(' & ');
+    const rolesDetail = duty.roles.join(', ');
+    const summary = `${rolesSummary}: ${duty.homeTeam} - ${duty.awayTeam}`;
+    const description = `Dienst: ${rolesDetail}\nWedstrijd: ${duty.homeTeam} vs ${duty.awayTeam}\nDatum: ${duty.date}\nTijd: ${duty.time}\nZwembad: ${duty.pool}`;
     const location = duty.pool || 'Zwembad';
 
     lines.push('BEGIN:VEVENT');

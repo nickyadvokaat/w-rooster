@@ -542,6 +542,13 @@ body {
   font-feature-settings: "tnum";
 }
 
+.duty-roles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+
 .role-badge {
   font-size: 0.72rem;
   font-weight: 600;
