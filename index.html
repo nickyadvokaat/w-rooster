@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W-Rooster | De Linge / PCG</title>
+    <meta name="description" content="Bekijk je tafeldienst- en scheidsrechtersrooster voor De Linge/PCG waterpolo en zet al je diensten in één klik in je agenda." />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon.png" />
+    <link rel="apple-touch-icon" href="./favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="app" class="app-container">
+      <!-- Header -->
+      <header class="app-header">
+        <div class="brand">
+          <img src="./logo.png" alt="De Linge / PCG" class="site-logo" />
+          <div class="brand-text">
+            <h1 class="site-title">W-Rooster</h1>
+            <span class="site-subtitle">De Linge / PCG</span>
+          </div>
+        </div>
+        <div class="season-badge" id="season-badge">Seizoen 2026-2027</div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Selector Bar -->
+        <section class="card selector-card">
+          <div class="selector-inputs">
+            <div class="search-box">
+              <span class="search-icon">🔍</span>
+              <input 
+                type="text" 
+                id="person-search" 
+                placeholder="Zoek je naam..." 
+                autocomplete="off"
+                aria-label="Zoek persoon op naam"
+              />
+              <button id="clear-search-btn" class="clear-btn" style="display: none;" aria-label="Wissen">✕</button>
+            </div>
+            <div class="select-wrapper">
+              <select id="person-select" class="person-dropdown" aria-label="Kies een persoon uit de lijst">
+                <option value="">-- Of kies uit de lijst --</option>
+              </select>
+            </div>
+          </div>
+        </section>
+
+        <!-- Dynamic Content Area -->
+        <div id="content-container">
+          <!-- Initial Placeholder State -->
+          <section id="placeholder-state" class="card empty-state">
+            <div class="empty-icon">🤽‍♂️</div>
+            <h2>Kies een persoon</h2>
+            <p>Selecteer hierboven je naam om je wedstrijddiensten te bekijken en te exporteren naar je agenda.</p>
+            <div class="quick-suggest" id="quick-suggest-box">
+              <span class="quick-suggest-label">Direct kiezen:</span>
+              <div class="quick-chips" id="quick-chips-container">
+                <!-- Injected via TypeScript -->
+              </div>
+            </div>
+          </section>
+
+          <!-- Person Dashboard State (Initially Hidden) -->
+          <section id="person-dashboard" class="dashboard-section" style="display: none;">
+            <!-- Person Summary Card -->
+            <div class="card person-summary-card">
+              <div class="summary-header">
+                <div class="person-info">
+                  <div class="avatar" id="person-avatar">?</div>
+                  <div>
+                    <h2 class="person-name" id="selected-person-name">Naam</h2>
+                    <p class="duties-count" id="duties-count-text">0 diensten toegewezen</p>
+                  </div>
+                </div>
+                <button id="download-ics-btn" class="btn btn-download">
+                  <span class="btn-icon">📅</span>
+                  <span>Download .ics</span>
+                </button>
+              </div>
+
+              <!-- Role Stats Chips -->
+              <div class="stats-chips" id="stats-chips-container">
+                <!-- Injected via TypeScript -->
+              </div>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="filter-bar">
+              <div class="filter-tabs" id="role-filter-tabs">
+                <button class="filter-tab active" data-filter="all">Alle diensten</button>
+                <button class="filter-tab" data-filter="Scheidsrechter">Scheidsrechter</button>
+                <button class="filter-tab" data-filter="W-tafel">W-tafel</button>
+                <button class="filter-tab" data-filter="Toezichthouder">Toezichthouder</button>
+                <button class="filter-tab" data-filter="Reanimatie">Reanimatie</button>
+              </div>
+            </div>
+
+            <!-- Duties List -->
+            <div class="duties-list" id="duties-list-container">
+              <!-- Injected via TypeScript -->
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- Calendar Import Guide Accordion -->
+      <section class="card guide-card">
+        <details class="guide-details">
+          <summary class="guide-summary">
+            <span>ℹ️ Hoe importeer ik het .ics-bestand in mijn agenda?</span>
+            <span class="chevron">▾</span>
+          </summary>
+          <div class="guide-content">
+            <div class="guide-grid">
+              <div class="guide-item">
+                <h3>Apple Agenda (iPhone / Mac)</h3>
+                <p>Klik op de downloadknop en open het bestand. Kies <em>"Voeg alles toe"</em>.</p>
+              </div>
+              <div class="guide-item">
+                <h3>Google Calendar</h3>
+                <p>Ga in Google Calendar naar Instellingen ➔ <em>Importeren en exporteren</em> ➔ upload het <code>.ics</code>-bestand.</p>
+              </div>
+              <div class="guide-item">
+                <h3>Microsoft Outlook</h3>
+                <p>Open het bestand of ga naar Bestand ➔ <em>Openen en exporteren</em> ➔ <em>iCalendar (.ics)</em>.</p>
+              </div>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <!-- Footer -->
+      <footer class="app-footer">
+        <p>W-Rooster De Linge / PCG</p>
+        <p class="last-updated" id="last-updated-text">Laatste update: -</p>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,716 @@
+:root {
+  /* Rustige, doordachte kleurtonen */
+  --color-primary: #22c55e;
+  --color-primary-muted: rgba(34, 197, 94, 0.15);
+  --color-accent: #ef4444;
+  --color-accent-muted: rgba(239, 68, 68, 0.15);
+
+  /* Neutrale achtergronden (donker zinc / slate, rustig en mat) */
+  --bg-body: #0b0f17;
+  --bg-card: #131a26;
+  --bg-card-hover: #182232;
+  --bg-input: #0e141f;
+  --bg-subtle: #1c2638;
+
+  /* Randen & lijnen */
+  --border-color: #243044;
+  --border-subtle: #1a2332;
+
+  /* Typografie en contrast */
+  --text-main: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* Rol-specifieke zachte tinten */
+  --badge-scheids-bg: rgba(245, 158, 11, 0.12);
+  --badge-scheids-text: #fbbf24;
+  --badge-scheids-border: rgba(245, 158, 11, 0.25);
+
+  --badge-wtafel-bg: rgba(34, 197, 94, 0.12);
+  --badge-wtafel-text: #4ade80;
+  --badge-wtafel-border: rgba(34, 197, 94, 0.25);
+
+  --badge-toezicht-bg: rgba(56, 189, 248, 0.12);
+  --badge-toezicht-text: #38bdf8;
+  --badge-toezicht-border: rgba(56, 189, 248, 0.25);
+
+  --badge-reanimatie-bg: rgba(244, 63, 94, 0.12);
+  --badge-reanimatie-text: #fb7185;
+  --badge-reanimatie-border: rgba(244, 63, 94, 0.25);
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Header - Compact en strak zonder tierelantijnen */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Geen wit kader om logo, directe schone weergave */
+.site-logo {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text-main);
+  line-height: 1.2;
+}
+
+.site-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.season-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.15rem;
+}
+
+/* Selector Card - Rustig & Compact */
+.selector-card {
+  padding: 0.85rem;
+}
+
+.selector-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem;
+}
+
+@media (max-width: 600px) {
+  .selector-inputs {
+    grid-template-columns: 1fr;
+  }
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.55rem 2rem 0.55rem 2.1rem;
+  background-color: var(--bg-input);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: var(--text-main);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.search-box input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-box input:focus {
+  border-color: var(--color-primary);
+}
+
+.clear-btn {
+  position: absolute;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clear-btn:hover {
+  color: var(--text-main);
+}
+
+.person-dropdown {
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  background-color: var(--bg-input);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: var(--text-main);
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.person-dropdown:focus {
+  border-color: var(--color-primary);
+}
+
+.person-dropdown option {
+  background-color: var(--bg-card);
+  color: var(--text-main);
+}
+
+/* Empty / Placeholder State */
+.empty-state {
+  text-align: center;
+  padding: 2.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.85;
+}
+
+.empty-state h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.empty-state p {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  max-width: 440px;
+  margin-bottom: 1rem;
+}
+
+.quick-suggest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quick-suggest-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.quick-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.quick-chip {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.quick-chip:hover {
+  color: var(--text-main);
+  border-color: var(--text-secondary);
+  background: var(--bg-card-hover);
+}
+
+/* Dashboard Section */
+.dashboard-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.person-summary-card {
+  padding: 1rem 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.person-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.person-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.duties-count {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* Knop voor kalenderdownload - duidelijk & doelgericht */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: inherit;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-download {
+  background: var(--color-primary);
+  color: #052e16;
+  font-weight: 700;
+}
+
+.btn-download:hover {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+.btn-download:active {
+  transform: translateY(1px);
+}
+
+.btn-icon {
+  font-size: 0.95rem;
+}
+
+/* Stats Chips */
+.stats-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+}
+
+.chip-scheidsrechter {
+  background: var(--badge-scheids-bg);
+  color: var(--badge-scheids-text);
+  border-color: var(--badge-scheids-border);
+}
+
+.chip-wtafel {
+  background: var(--badge-wtafel-bg);
+  color: var(--badge-wtafel-text);
+  border-color: var(--badge-wtafel-border);
+}
+
+.chip-toezicht {
+  background: var(--badge-toezicht-bg);
+  color: var(--badge-toezicht-text);
+  border-color: var(--badge-toezicht-border);
+}
+
+.chip-reanimatie {
+  background: var(--badge-reanimatie-bg);
+  color: var(--badge-reanimatie-text);
+  border-color: var(--badge-reanimatie-border);
+}
+
+/* Filter Bar */
+.filter-bar {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.filter-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-tabs {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.filter-tab {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all 0.15s ease;
+}
+
+.filter-tab:hover {
+  color: var(--text-main);
+  background: var(--bg-card-hover);
+}
+
+.filter-tab.active {
+  background: var(--bg-subtle);
+  color: var(--text-main);
+  border-color: var(--text-secondary);
+}
+
+.tab-count {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
+  background: var(--bg-input);
+  color: var(--text-secondary);
+}
+
+.filter-tab.active .tab-count {
+  background: var(--color-primary);
+  color: #052e16;
+}
+
+/* Duties List & Duty Cards */
+.duties-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.duty-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-left-width: 4px;
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.duty-card:hover {
+  background-color: var(--bg-card-hover);
+}
+
+/* Kleurindicatie zijkant: Caribabad = Rood, Berenschot = Groen */
+.duty-card[data-pool="caribabad"] {
+  border-left-color: var(--color-accent);
+}
+
+.duty-card[data-pool="berenschot"] {
+  border-left-color: var(--color-primary);
+}
+
+.duty-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.duty-datetime {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.duty-date {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--text-main);
+}
+
+.duty-time {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-feature-settings: "tnum";
+}
+
+.role-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+  border: 1px solid transparent;
+}
+
+.role-badge-scheidsrechter {
+  background: var(--badge-scheids-bg);
+  color: var(--badge-scheids-text);
+  border-color: var(--badge-scheids-border);
+}
+
+.role-badge-wtafel {
+  background: var(--badge-wtafel-bg);
+  color: var(--badge-wtafel-text);
+  border-color: var(--badge-wtafel-border);
+}
+
+.role-badge-toezichthouder {
+  background: var(--badge-toezicht-bg);
+  color: var(--badge-toezicht-text);
+  border-color: var(--badge-toezicht-border);
+}
+
+.role-badge-reanimatie {
+  background: var(--badge-reanimatie-bg);
+  color: var(--badge-reanimatie-text);
+  border-color: var(--badge-reanimatie-border);
+}
+
+.match-teams {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-main);
+}
+
+.team-lingepcg {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.vs-badge {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.duty-pool {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.pool-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.pool-caribabad .pool-dot {
+  background-color: var(--color-accent);
+}
+
+.pool-berenschot .pool-dot {
+  background-color: var(--color-primary);
+}
+
+.pool-name {
+  font-weight: 400;
+}
+
+/* Guide Accordion */
+.guide-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.guide-details summary {
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-secondary);
+  transition: color 0.15s ease;
+}
+
+.guide-details summary:hover {
+  color: var(--text-main);
+}
+
+.guide-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.chevron {
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+  color: var(--text-muted);
+}
+
+.guide-details[open] .chevron {
+  transform: rotate(180deg);
+}
+
+.guide-content {
+  padding: 0.75rem 1rem 1rem 1rem;
+  border-top: 1px solid var(--border-subtle);
+  background: var(--bg-input);
+}
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.guide-item {
+  background: var(--bg-card);
+  padding: 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+}
+
+.guide-item h3 {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 0.3rem;
+}
+
+.guide-item p {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.guide-item code {
+  background: var(--bg-subtle);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 0.75rem;
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding-top: 0.5rem;
+}
+
+.last-updated {
+  color: var(--text-muted);
+}
