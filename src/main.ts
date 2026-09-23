@@ -96,10 +96,8 @@ function selectPerson(personName: string, updateUrl: boolean = true) {
     const url = new URL(window.location.href);
     if (personName) {
       url.searchParams.set('naam', personName);
-      localStorage.setItem('w_rooster_selected_person', personName);
     } else {
       url.searchParams.delete('naam');
-      localStorage.removeItem('w_rooster_selected_person');
     }
     window.history.replaceState({}, '', url.toString());
   }
@@ -275,16 +273,9 @@ function renderDutiesList() {
  */
 async function init() {
   try {
-    // Relative path works both in dev and under GitHub Pages base paths
-    const response = await fetch('./data/rooster.json');
+    const response = await fetch(`${import.meta.env.BASE_URL}data/rooster.json`);
     if (!response.ok) {
-      console.error(`Kon rooster data niet laden: ${response.statusText}`);
-      placeholderState.innerHTML = `
-        <div class="empty-icon">⚠️</div>
-        <h2>Er ging iets mis</h2>
-        <p>Het rooster kon niet geladen worden (${response.statusText}). Controleer of <code>public/data/rooster.json</code> aanwezig is.</p>
-      `;
-      return;
+      throw new Error(`Kon data/rooster.json niet laden: ${response.statusText}`);
     }
     roosterData = await response.json();
 
@@ -324,14 +315,14 @@ async function init() {
       }
     }
 
-    // Check URL query parameters or localStorage for default selected person
+    // Check URL query parameters for default selected person
     const urlParams = new URLSearchParams(window.location.search);
     const nameParam = urlParams.get('naam');
-    const storedName = localStorage.getItem('w_rooster_selected_person');
 
-    const initialName = nameParam || storedName || '';
-    if (initialName && roosterData.persons.includes(initialName)) {
-      selectPerson(initialName, false);
+    if (nameParam && roosterData.persons.includes(nameParam)) {
+      selectPerson(nameParam, false);
+    } else {
+      selectPerson('', false);
     }
 
     // Event Listeners
