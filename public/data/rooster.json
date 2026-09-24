@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T20:45:24.349Z",
+  "lastUpdated": "2026-09-24T17:03:49.121Z",
   "season": "2026-2027",
   "persons": [
     "Antoinique",
@@ -8,7 +8,6 @@
     "Daniël R",
     "Esmay",
     "Gaël",
-    "Gerrit",
     "Gerrit Jr",
     "Gerrit Sr",
     "Gregory",
@@ -20,6 +19,7 @@
     "Jeanette S.",
     "Kiara",
     "Kyra",
+    "laura",
     "Laura",
     "Lennart",
     "Lisa",
@@ -35,7 +35,6 @@
     "Quint",
     "Renee",
     "Rens",
-    "Rick",
     "Rick v B.",
     "Rik",
     "Robin Klein",
@@ -52,1344 +51,1634 @@
   ],
   "duties": [
     {
-      "id": "duty-6-iris-9xh59",
+      "id": "duty-3-iris-tk9cx",
       "date": "2026-09-27",
       "time": "18:00",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Arethusa H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Iris",
       "rawText": "Iris"
     },
     {
-      "id": "duty-6-jeanette-advokaat-wjgri",
+      "id": "duty-1-laura-uxv4a",
       "date": "2026-09-27",
       "time": "18:00",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Arethusa H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Jeanette Advokaat",
-      "rawText": "Jeanette Advokaat"
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "laura",
+      "rawText": "laura"
     },
     {
-      "id": "duty-6-syb-1lrzw",
+      "id": "duty-2-syb-e7ndn",
       "date": "2026-09-27",
       "time": "18:00",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Arethusa H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Syb",
       "rawText": "Syb"
     },
     {
-      "id": "duty-8-esmay-o1nax",
+      "id": "duty-4-esmay-cm3x6",
       "date": "2026-10-03",
       "time": "15:45",
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "Watervlo GO10-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "Scheidsrechter",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Esmay",
       "rawText": "Esmay"
     },
     {
-      "id": "duty-8-ouders-u9rjs",
+      "id": "duty-5-ouders-erfl6",
       "date": "2026-10-03",
       "time": "15:45",
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "Watervlo GO10-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Ouders",
       "rawText": "Ouder"
     },
     {
-      "id": "duty-9-antoinique-5k5fn",
+      "id": "duty-8-antoinique-qid7r",
       "date": "2026-10-03",
       "time": "16:15",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Antoinique",
       "rawText": "Antoinique"
     },
     {
-      "id": "duty-9-esmay-vta8e",
+      "id": "duty-7-esmay-uy2v6",
       "date": "2026-10-03",
       "time": "16:15",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Esmay",
       "rawText": "Esmay"
     },
     {
-      "id": "duty-9-maud-3sw5v",
+      "id": "duty-9-maud-7kho6",
       "date": "2026-10-03",
       "time": "16:15",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Maud",
       "rawText": "Maud"
     },
     {
-      "id": "duty-9-victor-or096",
+      "id": "duty-6-victor-sfk7y",
       "date": "2026-10-03",
       "time": "16:15",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-2",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter"],
+      "roles": [
+        "Scheidsrechter"
+      ],
       "person": "Victor",
       "rawText": "Victor"
     },
     {
-      "id": "duty-10-gerrit-sr-wqj6u",
+      "id": "duty-10-gerrit-sr-n06ge",
       "date": "2026-10-03",
       "time": "17:00",
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter"],
+      "roles": [
+        "Scheidsrechter"
+      ],
       "person": "Gerrit Sr",
       "rawText": "Gerrit Sr"
     },
     {
-      "id": "duty-10-kiara-y5oq1",
+      "id": "duty-14-kiara-amp9t",
       "date": "2026-10-03",
       "time": "17:00",
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Toezichthouder"],
+      "roles": [
+        "Toezichthouder"
+      ],
       "person": "Kiara",
       "rawText": "Kiara"
     },
     {
-      "id": "duty-10-quint-opk8u",
+      "id": "duty-12-quint-ptgio",
       "date": "2026-10-03",
       "time": "17:00",
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Reanimatie"
+      ],
       "person": "Quint",
       "rawText": "Quint"
     },
     {
-      "id": "duty-10-stephan-idpx0",
+      "id": "duty-13-stephan-xqfs7",
       "date": "2026-10-03",
       "time": "17:00",
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Stephan",
       "rawText": "Stephan"
     },
     {
-      "id": "duty-10-tjerk-xsu0v",
+      "id": "duty-11-tjerk-9thbg",
       "date": "2026-10-03",
       "time": "17:00",
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "Wiekslag H4",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Tjerk",
       "rawText": "Tjerk"
     },
     {
-      "id": "duty-11-gerrit-sr-squr0",
+      "id": "duty-15-gerrit-sr-ju58b",
       "date": "2026-10-03",
       "time": "17:45",
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter"],
+      "roles": [
+        "Scheidsrechter"
+      ],
       "person": "Gerrit Sr",
       "rawText": "Gerrit Sr"
     },
     {
-      "id": "duty-11-nicky-7n3um",
+      "id": "duty-19-nicky-ngo9e",
       "date": "2026-10-03",
       "time": "17:45",
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Toezichthouder"],
+      "roles": [
+        "Toezichthouder"
+      ],
       "person": "Nicky",
       "rawText": "Nicky"
     },
     {
-      "id": "duty-11-quint-4lnpu",
+      "id": "duty-17-quint-nqb9s",
       "date": "2026-10-03",
       "time": "17:45",
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Reanimatie"
+      ],
       "person": "Quint",
       "rawText": "Quint"
     },
     {
-      "id": "duty-11-stephan-dv1lm",
+      "id": "duty-18-stephan-jblf6",
       "date": "2026-10-03",
       "time": "17:45",
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Stephan",
       "rawText": "Stephan"
     },
     {
-      "id": "duty-11-tjerk-lewol",
+      "id": "duty-16-tjerk-4jrvr",
       "date": "2026-10-03",
       "time": "17:45",
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Zwemvereniging Utrecht Da5",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Tjerk",
       "rawText": "Tjerk"
     },
     {
-      "id": "duty-12-gerrit-lew98",
+      "id": "duty-21-gerrit-jr-ljcly",
       "date": "2026-10-03",
       "time": "18:30",
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "DBD Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Toezichthouder"],
-      "person": "Gerrit",
-      "rawText": "Gerrit"
-    },
-    {
-      "id": "duty-12-gerrit-jr-zawsz",
-      "date": "2026-10-03",
-      "time": "18:30",
-      "homeTeam": "De Linge/PCG Da1",
-      "awayTeam": "DBD Da1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Gerrit Jr",
       "rawText": "Gerrit Jr"
     },
     {
-      "id": "duty-12-henk-ltgoa",
+      "id": "duty-20-henk-5a61d",
       "date": "2026-10-03",
       "time": "18:30",
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "DBD Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Henk",
       "rawText": "Henk"
     },
     {
-      "id": "duty-12-henny-eoiey",
+      "id": "duty-22-henny-dmncd",
       "date": "2026-10-03",
       "time": "18:30",
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "DBD Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Henny",
       "rawText": "Henny"
     },
     {
-      "id": "duty-13-jasmijn-90n1o",
+      "id": "duty-23-jasmijn-admb9",
       "date": "2026-10-03",
       "time": "19:45",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Z&PC De Gouwe H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Jasmijn",
       "rawText": "Jasmijn"
     },
     {
-      "id": "duty-13-jeanette-advokaat-ql4af",
+      "id": "duty-25-jeanette-advokaat-m5xmh",
       "date": "2026-10-03",
       "time": "19:45",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Z&PC De Gouwe H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
     {
-      "id": "duty-13-laura-21wt7",
+      "id": "duty-24-laura-g2bv1",
       "date": "2026-10-03",
       "time": "19:45",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "Z&PC De Gouwe H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Laura",
       "rawText": "Laura"
     },
     {
-      "id": "duty-14-jasmijn-vxjgk",
+      "id": "duty-26-jasmijn-2bb16",
       "date": "2026-10-03",
       "time": "21:10",
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "Z&PC De Gouwe H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Jasmijn",
       "rawText": "Jasmijn"
     },
     {
-      "id": "duty-14-jeanette-advokaat-8sdad",
+      "id": "duty-28-jeanette-advokaat-t2lo4",
       "date": "2026-10-03",
       "time": "21:10",
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "Z&PC De Gouwe H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
     {
-      "id": "duty-14-laura-9c7d2",
+      "id": "duty-27-laura-jnvqx",
       "date": "2026-10-03",
       "time": "21:10",
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "Z&PC De Gouwe H2",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Laura",
       "rawText": "Laura"
     },
     {
-      "id": "duty-26-gerrit-jr-b9hte",
+      "id": "duty-35-gerrit-jr-2ka3s",
       "date": "2026-10-31",
       "time": "15:30",
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "Polarbears GO10-1",
-      "pool": "Berenschot Leerdam",
-      "roles": ["Scheidsrechter", "Toezichthouder", "Reanimatie"],
+      "pool": "",
+      "roles": [
+        "Scheidsrechter",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Gerrit Jr",
       "rawText": "Gerrit Jr"
     },
     {
-      "id": "duty-26-ouders-68nts",
+      "id": "duty-36-ouders-1gump",
       "date": "2026-10-31",
       "time": "15:30",
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "Polarbears GO10-1",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "pool": "",
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Ouders",
       "rawText": "Ouders"
     },
     {
-      "id": "duty-27-chiel-m0r1k",
+      "id": "duty-37-chiel-o5df4",
       "date": "2026-10-31",
       "time": "16:00",
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "UZSC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": ["Scheidsrechter"],
+      "roles": [
+        "Scheidsrechter"
+      ],
       "person": "Chiel",
       "rawText": "Chiel"
     },
     {
-      "id": "duty-27-gerrit-jr-6k5dh",
+      "id": "duty-39-gerrit-jr-uwqck",
       "date": "2026-10-31",
       "time": "16:00",
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "UZSC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Gerrit Jr",
       "rawText": "Gerrit Jr"
     },
     {
-      "id": "duty-27-ouders-7kth3",
+      "id": "duty-38-ouders-5e08o",
       "date": "2026-10-31",
       "time": "16:00",
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "UZSC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Ouders",
       "rawText": "Ouders"
     },
     {
-      "id": "duty-28-chiel-o0gwk",
+      "id": "duty-40-chiel-82qu5",
       "date": "2026-10-31",
       "time": "16:45",
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "TZC-Vahalis GO14-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["Scheidsrechter"],
+      "roles": [
+        "Scheidsrechter"
+      ],
       "person": "Chiel",
       "rawText": "Chiel"
     },
     {
-      "id": "duty-28-marcel-bru-xj9dp",
+      "id": "duty-42-marcel-bru-uiuq1",
       "date": "2026-10-31",
       "time": "16:45",
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "TZC-Vahalis GO14-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Marcel Bru",
       "rawText": "Marcel Bru"
     },
     {
-      "id": "duty-28-ouders-b38jx",
+      "id": "duty-41-ouders-rrthw",
       "date": "2026-10-31",
       "time": "16:45",
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "TZC-Vahalis GO14-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Ouders",
       "rawText": "Ouders"
     },
     {
-      "id": "duty-29-dani-l-r-ksx27",
+      "id": "duty-44-dani-l-r-nvls8",
       "date": "2026-10-31",
       "time": "17:30",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "De Vuursche GO16-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Daniël R",
       "rawText": "Daniël R"
     },
     {
-      "id": "duty-29-gerrit-sr-yy1us",
+      "id": "duty-43-gerrit-sr-rbd1z",
       "date": "2026-10-31",
       "time": "17:30",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "De Vuursche GO16-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["Scheidsrechter"],
+      "roles": [
+        "Scheidsrechter"
+      ],
       "person": "Gerrit Sr",
       "rawText": "Gerrit Sr"
     },
     {
-      "id": "duty-29-henny-h21rq",
+      "id": "duty-46-henny-54tha",
       "date": "2026-10-31",
       "time": "17:30",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "De Vuursche GO16-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Henny",
       "rawText": "Henny"
     },
     {
-      "id": "duty-29-marcel-bru-5ci18",
+      "id": "duty-45-marcel-bru-6veow",
       "date": "2026-10-31",
       "time": "17:30",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "De Vuursche GO16-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Marcel Bru",
       "rawText": "Marcel Bru"
     },
     {
-      "id": "duty-24-jeanette-advokaat-xuo02",
+      "id": "duty-29-jeanette-advokaat-gc7h1",
       "date": "2026-10-31",
       "time": "18:00",
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "AZC H3",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
     {
-      "id": "duty-24-jeanette-s--c1jgu",
+      "id": "duty-30-jeanette-s--pjmvv",
       "date": "2026-10-31",
       "time": "18:00",
       "homeTeam": "De Linge/PCG H2",
       "awayTeam": "AZC H3",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
-      "person": "Jeanette S.",
-      "rawText": "Jeanette S., Jeanette S"
-    },
-    {
-      "id": "duty-24-stephan-ugrh2",
-      "date": "2026-10-31",
-      "time": "18:00",
-      "homeTeam": "De Linge/PCG H2",
-      "awayTeam": "AZC H3",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Stephan",
-      "rawText": "Stephan"
-    },
-    {
-      "id": "duty-30-esmay-wd1jo",
-      "date": "2026-10-31",
-      "time": "18:15",
-      "homeTeam": "De Linge/PCG H4",
-      "awayTeam": "ZVDO'74 H4",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
-      "person": "Esmay",
-      "rawText": "Esmay"
-    },
-    {
-      "id": "duty-30-gerrit-sr-l1cel",
-      "date": "2026-10-31",
-      "time": "18:15",
-      "homeTeam": "De Linge/PCG H4",
-      "awayTeam": "ZVDO'74 H4",
-      "pool": "Berenschot Leerdam",
-      "roles": ["Scheidsrechter"],
-      "person": "Gerrit Sr",
-      "rawText": "Gerrit Sr"
-    },
-    {
-      "id": "duty-30-kiara-1amgx",
-      "date": "2026-10-31",
-      "time": "18:15",
-      "homeTeam": "De Linge/PCG H4",
-      "awayTeam": "ZVDO'74 H4",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
-      "person": "Kiara",
-      "rawText": "Kiara"
-    },
-    {
-      "id": "duty-30-laura-h3dtp",
-      "date": "2026-10-31",
-      "time": "18:15",
-      "homeTeam": "De Linge/PCG H4",
-      "awayTeam": "ZVDO'74 H4",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
-      "person": "Laura",
-      "rawText": "Laura"
-    },
-    {
-      "id": "duty-31-esmay-chgf5",
-      "date": "2026-10-31",
-      "time": "19:00",
-      "homeTeam": "De Linge/PCG H3",
-      "awayTeam": "De Vuursche H1",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
-      "person": "Esmay",
-      "rawText": "Esmay"
-    },
-    {
-      "id": "duty-31-kiara-2olc3",
-      "date": "2026-10-31",
-      "time": "19:00",
-      "homeTeam": "De Linge/PCG H3",
-      "awayTeam": "De Vuursche H1",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
-      "person": "Kiara",
-      "rawText": "Kiara"
-    },
-    {
-      "id": "duty-31-laura-if67v",
-      "date": "2026-10-31",
-      "time": "19:00",
-      "homeTeam": "De Linge/PCG H3",
-      "awayTeam": "De Vuursche H1",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
-      "person": "Laura",
-      "rawText": "Laura"
-    },
-    {
-      "id": "duty-25-jeanette-advokaat-1obzw",
-      "date": "2026-10-31",
-      "time": "19:25",
-      "homeTeam": "De Linge/PCG H1",
-      "awayTeam": "ZV Haerlem H1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Jeanette Advokaat",
-      "rawText": "Jeanette Advokaat"
-    },
-    {
-      "id": "duty-25-jeanette-s--9rnvc",
-      "date": "2026-10-31",
-      "time": "19:25",
-      "homeTeam": "De Linge/PCG H1",
-      "awayTeam": "ZV Haerlem H1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
-      "person": "Jeanette S.",
-      "rawText": "Jeanette S., Jeanette S"
-    },
-    {
-      "id": "duty-25-rens-h4x4t",
-      "date": "2026-10-31",
-      "time": "19:25",
-      "homeTeam": "De Linge/PCG H1",
-      "awayTeam": "ZV Haerlem H1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Rens",
-      "rawText": "Rens"
-    },
-    {
-      "id": "duty-32-ga-l-dfllj",
-      "date": "2026-10-31",
-      "time": "19:45",
-      "homeTeam": "De Linge/PCG Da1",
-      "awayTeam": "Zeester-Meerval Da1",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Reanimatie"],
-      "person": "Gaël",
-      "rawText": "Gaël"
-    },
-    {
-      "id": "duty-32-henny-tvth9",
-      "date": "2026-10-31",
-      "time": "19:45",
-      "homeTeam": "De Linge/PCG Da1",
-      "awayTeam": "Zeester-Meerval Da1",
-      "pool": "Berenschot Leerdam",
-      "roles": ["Toezichthouder"],
-      "person": "Henny",
-      "rawText": "Henny"
-    },
-    {
-      "id": "duty-32-rick-v-b--b53y1",
-      "date": "2026-10-31",
-      "time": "19:45",
-      "homeTeam": "De Linge/PCG Da1",
-      "awayTeam": "Zeester-Meerval Da1",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
-      "person": "Rick v B.",
-      "rawText": "Rick v B."
-    },
-    {
-      "id": "duty-32-thymen-xujfy",
-      "date": "2026-10-31",
-      "time": "19:45",
-      "homeTeam": "De Linge/PCG Da1",
-      "awayTeam": "Zeester-Meerval Da1",
-      "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
-      "person": "Thymen",
-      "rawText": "Thymen"
-    },
-    {
-      "id": "duty-40-jeanette-advokaat-q73hv",
-      "date": "2026-11-14",
-      "time": "14:00",
-      "homeTeam": "De Linge/PCG H1",
-      "awayTeam": "DZT'62 H1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Jeanette Advokaat",
-      "rawText": "Jeanette Advokaat"
-    },
-    {
-      "id": "duty-40-kyra-qd5x9",
-      "date": "2026-11-14",
-      "time": "14:00",
-      "homeTeam": "De Linge/PCG H1",
-      "awayTeam": "DZT'62 H1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["Toezichthouder", "Reanimatie"],
-      "person": "Kyra",
-      "rawText": "Kyra + Nicky"
-    },
-    {
-      "id": "duty-40-lucas-7i4tc",
-      "date": "2026-11-14",
-      "time": "14:00",
-      "homeTeam": "De Linge/PCG H1",
-      "awayTeam": "DZT'62 H1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Lucas",
-      "rawText": "Lucas"
-    },
-    {
-      "id": "duty-40-nicky-m1riz",
-      "date": "2026-11-14",
-      "time": "14:00",
-      "homeTeam": "De Linge/PCG H1",
-      "awayTeam": "DZT'62 H1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["Toezichthouder", "Reanimatie"],
-      "person": "Nicky",
-      "rawText": "Kyra + Nicky"
-    },
-    {
-      "id": "duty-40-thymo-q2t3i",
-      "date": "2026-11-14",
-      "time": "14:00",
-      "homeTeam": "De Linge/PCG H1",
-      "awayTeam": "DZT'62 H1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Thymo",
-      "rawText": "Thymo"
-    },
-    {
-      "id": "duty-41-lucas-wmn6d",
-      "date": "2026-11-14",
-      "time": "15:15",
-      "homeTeam": "De Linge/PCG GO10-1",
-      "awayTeam": "UZSC GO10-2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter"],
-      "person": "Lucas",
-      "rawText": "Lucas"
-    },
-    {
-      "id": "duty-41-ouders-ntuj6",
-      "date": "2026-11-14",
-      "time": "15:15",
-      "homeTeam": "De Linge/PCG GO10-1",
-      "awayTeam": "UZSC GO10-2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Ouders",
-      "rawText": "Ouders"
-    },
-    {
-      "id": "duty-41-sjoerd-ix9v4",
-      "date": "2026-11-14",
-      "time": "15:15",
-      "homeTeam": "De Linge/PCG GO10-1",
-      "awayTeam": "UZSC GO10-2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["Reanimatie"],
-      "person": "Sjoerd",
-      "rawText": "Sjoerd"
-    },
-    {
-      "id": "duty-41-thymo-203ij",
-      "date": "2026-11-14",
-      "time": "15:15",
-      "homeTeam": "De Linge/PCG GO10-1",
-      "awayTeam": "UZSC GO10-2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Thymo",
-      "rawText": "Thymo"
-    },
-    {
-      "id": "duty-41-timon-vtlx8",
-      "date": "2026-11-14",
-      "time": "15:15",
-      "homeTeam": "De Linge/PCG GO10-1",
-      "awayTeam": "UZSC GO10-2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["Toezichthouder"],
-      "person": "Timon",
-      "rawText": "Timon"
-    },
-    {
-      "id": "duty-42-henny-56ao5",
-      "date": "2026-11-14",
-      "time": "15:45",
-      "homeTeam": "De Linge/PCG GO14-1",
-      "awayTeam": "De Treffers GO14-2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter"],
-      "person": "Henny",
-      "rawText": "Henny"
-    },
-    {
-      "id": "duty-42-nicky-4qgft",
-      "date": "2026-11-14",
-      "time": "15:45",
-      "homeTeam": "De Linge/PCG GO14-1",
-      "awayTeam": "De Treffers GO14-2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
-      "person": "Nicky",
-      "rawText": "Nicky"
-    },
-    {
-      "id": "duty-42-rik-c8heg",
-      "date": "2026-11-14",
-      "time": "15:45",
-      "homeTeam": "De Linge/PCG GO14-1",
-      "awayTeam": "De Treffers GO14-2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Rik",
-      "rawText": "Rik"
-    },
-    {
-      "id": "duty-43-henny-chcxv",
-      "date": "2026-11-14",
-      "time": "16:30",
-      "homeTeam": "De Linge/PCG GO16-1",
-      "awayTeam": "BZC Brandenburg GO16-1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter"],
-      "person": "Henny",
-      "rawText": "Henny"
-    },
-    {
-      "id": "duty-43-nick-w6j70",
-      "date": "2026-11-14",
-      "time": "16:30",
-      "homeTeam": "De Linge/PCG GO16-1",
-      "awayTeam": "BZC Brandenburg GO16-1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Nick",
-      "rawText": "Nick"
-    },
-    {
-      "id": "duty-43-nicky-ouhnz",
-      "date": "2026-11-14",
-      "time": "16:30",
-      "homeTeam": "De Linge/PCG GO16-1",
-      "awayTeam": "BZC Brandenburg GO16-1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
-      "person": "Nicky",
-      "rawText": "Nicky"
-    },
-    {
-      "id": "duty-43-rik-ivv16",
-      "date": "2026-11-14",
-      "time": "16:30",
-      "homeTeam": "De Linge/PCG GO16-1",
-      "awayTeam": "BZC Brandenburg GO16-1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Rik",
-      "rawText": "Rik"
-    },
-    {
-      "id": "duty-44-gerrit-sr-tg12z",
-      "date": "2026-11-14",
-      "time": "17:15",
-      "homeTeam": "De Linge/PCG H4",
-      "awayTeam": "De Albatros H2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter"],
-      "person": "Gerrit Sr",
-      "rawText": "Gerrit Sr"
-    },
-    {
-      "id": "duty-44-nick-5edl6",
-      "date": "2026-11-14",
-      "time": "17:15",
-      "homeTeam": "De Linge/PCG H4",
-      "awayTeam": "De Albatros H2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Nick",
-      "rawText": "Nick"
-    },
-    {
-      "id": "duty-44-sjoerd-mwkp1",
-      "date": "2026-11-14",
-      "time": "17:15",
-      "homeTeam": "De Linge/PCG H4",
-      "awayTeam": "De Albatros H2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Reanimatie"],
-      "person": "Sjoerd",
-      "rawText": "Sjoerd"
-    },
-    {
-      "id": "duty-44-timon-srbvd",
-      "date": "2026-11-14",
-      "time": "17:15",
-      "homeTeam": "De Linge/PCG H4",
-      "awayTeam": "De Albatros H2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder"],
-      "person": "Timon",
-      "rawText": "Timon"
-    },
-    {
-      "id": "duty-45-gerrit-sr-xgjr7",
-      "date": "2026-11-14",
-      "time": "18:00",
-      "homeTeam": "De Linge/PCG Da2",
-      "awayTeam": "d'Elft/ Wave Da3",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter"],
-      "person": "Gerrit Sr",
-      "rawText": "Gerrit Sr"
-    },
-    {
-      "id": "duty-45-lennart-ktl83",
-      "date": "2026-11-14",
-      "time": "18:00",
-      "homeTeam": "De Linge/PCG Da2",
-      "awayTeam": "d'Elft/ Wave Da3",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
-      "person": "Lennart",
-      "rawText": "Lennart"
-    },
-    {
-      "id": "duty-45-sjoerd-udq58",
-      "date": "2026-11-14",
-      "time": "18:00",
-      "homeTeam": "De Linge/PCG Da2",
-      "awayTeam": "d'Elft/ Wave Da3",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Sjoerd",
-      "rawText": "Sjoerd"
-    },
-    {
-      "id": "duty-45-timon-qyc0n",
-      "date": "2026-11-14",
-      "time": "18:00",
-      "homeTeam": "De Linge/PCG Da2",
-      "awayTeam": "d'Elft/ Wave Da3",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Timon",
-      "rawText": "Timon"
-    },
-    {
-      "id": "duty-46-jeanette-s--16shl",
-      "date": "2026-11-14",
-      "time": "18:45",
-      "homeTeam": "De Linge/PCG H3",
-      "awayTeam": "De Duinkikkers H2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Jeanette S.",
       "rawText": "Jeanette S."
     },
     {
-      "id": "duty-46-lisa-hjszb",
-      "date": "2026-11-14",
-      "time": "18:45",
+      "id": "duty-31-stephan-3w3lk",
+      "date": "2026-10-31",
+      "time": "18:00",
+      "homeTeam": "De Linge/PCG H2",
+      "awayTeam": "AZC H3",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Stephan",
+      "rawText": "Stephan"
+    },
+    {
+      "id": "duty-50-esmay-oudew",
+      "date": "2026-10-31",
+      "time": "18:15",
+      "homeTeam": "De Linge/PCG H4",
+      "awayTeam": "ZVDO'74 H4",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Esmay",
+      "rawText": "Esmay"
+    },
+    {
+      "id": "duty-47-gerrit-sr-59i48",
+      "date": "2026-10-31",
+      "time": "18:15",
+      "homeTeam": "De Linge/PCG H4",
+      "awayTeam": "ZVDO'74 H4",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "Scheidsrechter"
+      ],
+      "person": "Gerrit Sr",
+      "rawText": "Gerrit Sr"
+    },
+    {
+      "id": "duty-48-kiara-c8lqw",
+      "date": "2026-10-31",
+      "time": "18:15",
+      "homeTeam": "De Linge/PCG H4",
+      "awayTeam": "ZVDO'74 H4",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Kiara",
+      "rawText": "Kiara"
+    },
+    {
+      "id": "duty-49-laura-1e61t",
+      "date": "2026-10-31",
+      "time": "18:15",
+      "homeTeam": "De Linge/PCG H4",
+      "awayTeam": "ZVDO'74 H4",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
+      "person": "Laura",
+      "rawText": "Laura"
+    },
+    {
+      "id": "duty-53-esmay-pu2c4",
+      "date": "2026-10-31",
+      "time": "19:00",
       "homeTeam": "De Linge/PCG H3",
-      "awayTeam": "De Duinkikkers H2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder"],
-      "person": "Lisa",
-      "rawText": "Lisa"
+      "awayTeam": "De Vuursche H1",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Esmay",
+      "rawText": "Esmay"
     },
     {
-      "id": "duty-46-vera-ks76o",
-      "date": "2026-11-14",
-      "time": "18:45",
+      "id": "duty-51-kiara-yixnw",
+      "date": "2026-10-31",
+      "time": "19:00",
       "homeTeam": "De Linge/PCG H3",
-      "awayTeam": "De Duinkikkers H2",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Reanimatie"],
-      "person": "Vera",
-      "rawText": "Vera"
+      "awayTeam": "De Vuursche H1",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Kiara",
+      "rawText": "Kiara"
     },
     {
-      "id": "duty-47-dani-l-r-70pw0",
-      "date": "2026-11-14",
-      "time": "19:30",
-      "homeTeam": "De Linge/PCG Da1",
-      "awayTeam": "Waterpolo de Meierij (SG) Da1",
-      "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
-      "person": "Daniël R",
-      "rawText": "Daniel R"
+      "id": "duty-52-laura-bn9wo",
+      "date": "2026-10-31",
+      "time": "19:00",
+      "homeTeam": "De Linge/PCG H3",
+      "awayTeam": "De Vuursche H1",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
+      "person": "Laura",
+      "rawText": "Laura"
     },
     {
-      "id": "duty-47-ga-l-qta7x",
-      "date": "2026-11-14",
-      "time": "19:30",
-      "homeTeam": "De Linge/PCG Da1",
-      "awayTeam": "Waterpolo de Meierij (SG) Da1",
+      "id": "duty-32-jeanette-advokaat-ikea1",
+      "date": "2026-10-31",
+      "time": "19:25",
+      "homeTeam": "De Linge/PCG H1",
+      "awayTeam": "ZV Haerlem H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Jeanette Advokaat",
+      "rawText": "Jeanette Advokaat"
+    },
+    {
+      "id": "duty-33-jeanette-s--b0fpg",
+      "date": "2026-10-31",
+      "time": "19:25",
+      "homeTeam": "De Linge/PCG H1",
+      "awayTeam": "ZV Haerlem H1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
+      "person": "Jeanette S.",
+      "rawText": "Jeanette S."
+    },
+    {
+      "id": "duty-34-rens-4w6ew",
+      "date": "2026-10-31",
+      "time": "19:25",
+      "homeTeam": "De Linge/PCG H1",
+      "awayTeam": "ZV Haerlem H1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Rens",
+      "rawText": "Rens"
+    },
+    {
+      "id": "duty-55-ga-l-w28iv",
+      "date": "2026-10-31",
+      "time": "19:45",
+      "homeTeam": "De Linge/PCG Da1",
+      "awayTeam": "Zeester-Meerval Da1",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "W-tafel",
+        "Reanimatie"
+      ],
       "person": "Gaël",
       "rawText": "Gaël"
     },
     {
-      "id": "duty-47-jeanette-s--athd8",
+      "id": "duty-57-henny-9veug",
+      "date": "2026-10-31",
+      "time": "19:45",
+      "homeTeam": "De Linge/PCG Da1",
+      "awayTeam": "Zeester-Meerval Da1",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "Toezichthouder"
+      ],
+      "person": "Henny",
+      "rawText": "Henny"
+    },
+    {
+      "id": "duty-54-rick-v-b--6do2v",
+      "date": "2026-10-31",
+      "time": "19:45",
+      "homeTeam": "De Linge/PCG Da1",
+      "awayTeam": "Zeester-Meerval Da1",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Rick v B.",
+      "rawText": "Rick v B."
+    },
+    {
+      "id": "duty-56-thymen-djdsk",
+      "date": "2026-10-31",
+      "time": "19:45",
+      "homeTeam": "De Linge/PCG Da1",
+      "awayTeam": "Zeester-Meerval Da1",
+      "pool": "Berenschot Leerdam",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Thymen",
+      "rawText": "Thymen"
+    },
+    {
+      "id": "duty-58-jeanette-advokaat-5otes",
+      "date": "2026-11-14",
+      "time": "14:00",
+      "homeTeam": "De Linge/PCG H1",
+      "awayTeam": "DZT'62 H1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Jeanette Advokaat",
+      "rawText": "Jeanette Advokaat"
+    },
+    {
+      "id": "duty-61-kyra-gvmi7",
+      "date": "2026-11-14",
+      "time": "14:00",
+      "homeTeam": "De Linge/PCG H1",
+      "awayTeam": "DZT'62 H1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "Toezichthouder",
+        "Reanimatie"
+      ],
+      "person": "Kyra",
+      "rawText": "Kyra + Nicky"
+    },
+    {
+      "id": "duty-59-lucas-5ma7j",
+      "date": "2026-11-14",
+      "time": "14:00",
+      "homeTeam": "De Linge/PCG H1",
+      "awayTeam": "DZT'62 H1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Lucas",
+      "rawText": "Lucas"
+    },
+    {
+      "id": "duty-62-nicky-gwe67",
+      "date": "2026-11-14",
+      "time": "14:00",
+      "homeTeam": "De Linge/PCG H1",
+      "awayTeam": "DZT'62 H1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "Toezichthouder",
+        "Reanimatie"
+      ],
+      "person": "Nicky",
+      "rawText": "Kyra + Nicky"
+    },
+    {
+      "id": "duty-60-thymo-g65j1",
+      "date": "2026-11-14",
+      "time": "14:00",
+      "homeTeam": "De Linge/PCG H1",
+      "awayTeam": "DZT'62 H1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Thymo",
+      "rawText": "Thymo"
+    },
+    {
+      "id": "duty-63-lucas-2ror4",
+      "date": "2026-11-14",
+      "time": "15:15",
+      "homeTeam": "De Linge/PCG GO10-1",
+      "awayTeam": "UZSC GO10-2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "Scheidsrechter"
+      ],
+      "person": "Lucas",
+      "rawText": "Lucas"
+    },
+    {
+      "id": "duty-64-ouders-rumgh",
+      "date": "2026-11-14",
+      "time": "15:15",
+      "homeTeam": "De Linge/PCG GO10-1",
+      "awayTeam": "UZSC GO10-2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Ouders",
+      "rawText": "Ouders"
+    },
+    {
+      "id": "duty-67-sjoerd-1x8xd",
+      "date": "2026-11-14",
+      "time": "15:15",
+      "homeTeam": "De Linge/PCG GO10-1",
+      "awayTeam": "UZSC GO10-2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "Reanimatie"
+      ],
+      "person": "Sjoerd",
+      "rawText": "Sjoerd"
+    },
+    {
+      "id": "duty-65-thymo-9pzud",
+      "date": "2026-11-14",
+      "time": "15:15",
+      "homeTeam": "De Linge/PCG GO10-1",
+      "awayTeam": "UZSC GO10-2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Thymo",
+      "rawText": "Thymo"
+    },
+    {
+      "id": "duty-66-timon-i56zr",
+      "date": "2026-11-14",
+      "time": "15:15",
+      "homeTeam": "De Linge/PCG GO10-1",
+      "awayTeam": "UZSC GO10-2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "Toezichthouder"
+      ],
+      "person": "Timon",
+      "rawText": "Timon"
+    },
+    {
+      "id": "duty-68-henny-yzmy4",
+      "date": "2026-11-14",
+      "time": "15:45",
+      "homeTeam": "De Linge/PCG GO14-1",
+      "awayTeam": "De Treffers GO14-2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "Scheidsrechter"
+      ],
+      "person": "Henny",
+      "rawText": "Henny"
+    },
+    {
+      "id": "duty-70-nicky-lcv33",
+      "date": "2026-11-14",
+      "time": "15:45",
+      "homeTeam": "De Linge/PCG GO14-1",
+      "awayTeam": "De Treffers GO14-2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
+      "person": "Nicky",
+      "rawText": "Nicky"
+    },
+    {
+      "id": "duty-69-rik-9qvzu",
+      "date": "2026-11-14",
+      "time": "15:45",
+      "homeTeam": "De Linge/PCG GO14-1",
+      "awayTeam": "De Treffers GO14-2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Rik",
+      "rawText": "Rik"
+    },
+    {
+      "id": "duty-71-henny-2yjqp",
+      "date": "2026-11-14",
+      "time": "16:30",
+      "homeTeam": "De Linge/PCG GO16-1",
+      "awayTeam": "BZC Brandenburg GO16-1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "Scheidsrechter"
+      ],
+      "person": "Henny",
+      "rawText": "Henny"
+    },
+    {
+      "id": "duty-74-nick-enhnc",
+      "date": "2026-11-14",
+      "time": "16:30",
+      "homeTeam": "De Linge/PCG GO16-1",
+      "awayTeam": "BZC Brandenburg GO16-1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Nick",
+      "rawText": "Nick"
+    },
+    {
+      "id": "duty-73-nicky-wk58r",
+      "date": "2026-11-14",
+      "time": "16:30",
+      "homeTeam": "De Linge/PCG GO16-1",
+      "awayTeam": "BZC Brandenburg GO16-1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
+      "person": "Nicky",
+      "rawText": "Nicky"
+    },
+    {
+      "id": "duty-72-rik-y8b56",
+      "date": "2026-11-14",
+      "time": "16:30",
+      "homeTeam": "De Linge/PCG GO16-1",
+      "awayTeam": "BZC Brandenburg GO16-1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Rik",
+      "rawText": "Rik"
+    },
+    {
+      "id": "duty-75-gerrit-sr-ibb5q",
+      "date": "2026-11-14",
+      "time": "17:15",
+      "homeTeam": "De Linge/PCG H4",
+      "awayTeam": "De Albatros H2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "Scheidsrechter"
+      ],
+      "person": "Gerrit Sr",
+      "rawText": "Gerrit Sr"
+    },
+    {
+      "id": "duty-78-nick-1yhxx",
+      "date": "2026-11-14",
+      "time": "17:15",
+      "homeTeam": "De Linge/PCG H4",
+      "awayTeam": "De Albatros H2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Nick",
+      "rawText": "Nick"
+    },
+    {
+      "id": "duty-77-sjoerd-z41d1",
+      "date": "2026-11-14",
+      "time": "17:15",
+      "homeTeam": "De Linge/PCG H4",
+      "awayTeam": "De Albatros H2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel",
+        "Reanimatie"
+      ],
+      "person": "Sjoerd",
+      "rawText": "Sjoerd"
+    },
+    {
+      "id": "duty-76-timon-ohdl6",
+      "date": "2026-11-14",
+      "time": "17:15",
+      "homeTeam": "De Linge/PCG H4",
+      "awayTeam": "De Albatros H2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel",
+        "Toezichthouder"
+      ],
+      "person": "Timon",
+      "rawText": "Timon"
+    },
+    {
+      "id": "duty-79-gerrit-sr-6r3xp",
+      "date": "2026-11-14",
+      "time": "18:00",
+      "homeTeam": "De Linge/PCG Da2",
+      "awayTeam": "d'Elft/ Wave Da3",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "Scheidsrechter"
+      ],
+      "person": "Gerrit Sr",
+      "rawText": "Gerrit Sr"
+    },
+    {
+      "id": "duty-82-lennart-io8h2",
+      "date": "2026-11-14",
+      "time": "18:00",
+      "homeTeam": "De Linge/PCG Da2",
+      "awayTeam": "d'Elft/ Wave Da3",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
+      "person": "Lennart",
+      "rawText": "Lennart"
+    },
+    {
+      "id": "duty-81-sjoerd-vjgrn",
+      "date": "2026-11-14",
+      "time": "18:00",
+      "homeTeam": "De Linge/PCG Da2",
+      "awayTeam": "d'Elft/ Wave Da3",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Sjoerd",
+      "rawText": "Sjoerd"
+    },
+    {
+      "id": "duty-80-timon-bzza4",
+      "date": "2026-11-14",
+      "time": "18:00",
+      "homeTeam": "De Linge/PCG Da2",
+      "awayTeam": "d'Elft/ Wave Da3",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Timon",
+      "rawText": "Timon"
+    },
+    {
+      "id": "duty-83-jasmijn-q4nec",
+      "date": "2026-11-14",
+      "time": "18:45",
+      "homeTeam": "De Linge/PCG H3",
+      "awayTeam": "De Duinkikkers H2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Jasmijn",
+      "rawText": "Jasmijn"
+    },
+    {
+      "id": "duty-85-lisa-zjx2e",
+      "date": "2026-11-14",
+      "time": "18:45",
+      "homeTeam": "De Linge/PCG H3",
+      "awayTeam": "De Duinkikkers H2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel",
+        "Toezichthouder"
+      ],
+      "person": "Lisa",
+      "rawText": "Lisa"
+    },
+    {
+      "id": "duty-84-vera-ufkom",
+      "date": "2026-11-14",
+      "time": "18:45",
+      "homeTeam": "De Linge/PCG H3",
+      "awayTeam": "De Duinkikkers H2",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel",
+        "Reanimatie"
+      ],
+      "person": "Vera",
+      "rawText": "Vera"
+    },
+    {
+      "id": "duty-87-dani-l-r-bpz5y",
       "date": "2026-11-14",
       "time": "19:30",
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "Waterpolo de Meierij (SG) Da1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
-      "person": "Jeanette S.",
-      "rawText": "Jeanette S., Jeanette S"
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Daniël R",
+      "rawText": "Daniël R"
     },
     {
-      "id": "duty-59-kiara-emxi4",
+      "id": "duty-88-ga-l-l9huw",
+      "date": "2026-11-14",
+      "time": "19:30",
+      "homeTeam": "De Linge/PCG Da1",
+      "awayTeam": "Waterpolo de Meierij (SG) Da1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Gaël",
+      "rawText": "Gaël"
+    },
+    {
+      "id": "duty-86-jeanette-s--30pvk",
+      "date": "2026-11-14",
+      "time": "19:30",
+      "homeTeam": "De Linge/PCG Da1",
+      "awayTeam": "Waterpolo de Meierij (SG) Da1",
+      "pool": "Caribabad in Gorinchem",
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
+      "person": "Jeanette S.",
+      "rawText": "Jeanette S."
+    },
+    {
+      "id": "duty-102-kiara-qenyc",
       "date": "2026-11-28",
       "time": "16:00",
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "De Duinkikkers GO10-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["Scheidsrechter", "Toezichthouder"],
+      "roles": [
+        "Scheidsrechter",
+        "Toezichthouder"
+      ],
       "person": "Kiara",
       "rawText": "Kiara"
     },
     {
-      "id": "duty-59-ouders-7ke7m",
+      "id": "duty-103-ouders-h42k2",
       "date": "2026-11-28",
       "time": "16:00",
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "De Duinkikkers GO10-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Ouders",
       "rawText": "Ouders"
     },
     {
-      "id": "duty-59-tosca-ro6cg",
+      "id": "duty-104-tosca-zmaf0",
       "date": "2026-11-28",
       "time": "16:00",
       "homeTeam": "De Linge/PCG GO10-1",
       "awayTeam": "De Duinkikkers GO10-1",
       "pool": "Berenschot Leerdam",
-      "roles": ["Reanimatie"],
+      "roles": [
+        "Reanimatie"
+      ],
       "person": "Tosca",
       "rawText": "Tosca"
     },
     {
-      "id": "duty-60-kiara-2yk0s",
+      "id": "duty-107-kiara-64cvf",
       "date": "2026-11-28",
       "time": "16:30",
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "BZC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder"
+      ],
       "person": "Kiara",
       "rawText": "Kiara"
     },
     {
-      "id": "duty-60-lisanne-z3t2y",
+      "id": "duty-105-lisanne-gt8rh",
       "date": "2026-11-28",
       "time": "16:30",
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "BZC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": ["Scheidsrechter", "Reanimatie"],
+      "roles": [
+        "Scheidsrechter",
+        "Reanimatie"
+      ],
       "person": "Lisanne",
       "rawText": "Lisanne"
     },
     {
-      "id": "duty-60-ouders-yb1an",
+      "id": "duty-106-ouders-s2rgx",
       "date": "2026-11-28",
       "time": "16:30",
       "homeTeam": "De Linge/PCG GO12-1",
       "awayTeam": "BZC GO12-2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Ouders",
       "rawText": "Ouders"
     },
     {
-      "id": "duty-61-chiel-nvd98",
+      "id": "duty-108-chiel-guh98",
       "date": "2026-11-28",
       "time": "17:15",
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "BZC H3",
       "pool": "Berenschot Leerdam",
-      "roles": ["Scheidsrechter"],
+      "roles": [
+        "Scheidsrechter"
+      ],
       "person": "Chiel",
       "rawText": "Chiel"
     },
     {
-      "id": "duty-61-lisanne-0e2ei",
+      "id": "duty-109-lisanne-4a6jf",
       "date": "2026-11-28",
       "time": "17:15",
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "BZC H3",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Lisanne",
       "rawText": "Lisanne"
     },
     {
-      "id": "duty-61-maud-f5hob",
+      "id": "duty-110-maud-iik2p",
       "date": "2026-11-28",
       "time": "17:15",
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "BZC H3",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Maud",
       "rawText": "Maud"
     },
     {
-      "id": "duty-61-renee-n9p5u",
+      "id": "duty-111-renee-2eldo",
       "date": "2026-11-28",
       "time": "17:15",
       "homeTeam": "De Linge/PCG H4",
       "awayTeam": "BZC H3",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Renee",
       "rawText": "Renee"
     },
     {
-      "id": "duty-62-chiel-4zc4i",
+      "id": "duty-112-chiel-im31h",
       "date": "2026-11-28",
       "time": "18:00",
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Z&PC Rotterdam/Ragnar Da6",
       "pool": "Berenschot Leerdam",
-      "roles": ["Scheidsrechter"],
+      "roles": [
+        "Scheidsrechter"
+      ],
       "person": "Chiel",
       "rawText": "Chiel"
     },
     {
-      "id": "duty-62-cobe-ajpre",
+      "id": "duty-113-cobe-czddx",
       "date": "2026-11-28",
       "time": "18:00",
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Z&PC Rotterdam/Ragnar Da6",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder"
+      ],
       "person": "Cobe",
       "rawText": "Cobe"
     },
     {
-      "id": "duty-62-mike-4rwa2",
+      "id": "duty-115-mike-xn8iu",
       "date": "2026-11-28",
       "time": "18:00",
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Z&PC Rotterdam/Ragnar Da6",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Reanimatie"
+      ],
       "person": "Mike",
       "rawText": "Mike"
     },
     {
-      "id": "duty-62-thymo-dumth",
+      "id": "duty-114-thymo-1sl1y",
       "date": "2026-11-28",
       "time": "18:00",
       "homeTeam": "De Linge/PCG Da2",
       "awayTeam": "Z&PC Rotterdam/Ragnar Da6",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Thymo",
       "rawText": "Thymo"
     },
     {
-      "id": "duty-63-jeanette-s--9gze0",
+      "id": "duty-116-jeanette-s--h17bg",
       "date": "2026-11-28",
       "time": "18:45",
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Houtrib H2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Jeanette S.",
-      "rawText": "Jeanette s"
+      "rawText": "Jeanette S."
     },
     {
-      "id": "duty-63-lisa-aoxks",
+      "id": "duty-118-lisa-i6j12",
       "date": "2026-11-28",
       "time": "18:45",
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Houtrib H2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Lisa",
       "rawText": "Lisa"
     },
     {
-      "id": "duty-63-vera-l0tq9",
+      "id": "duty-117-vera-ba9pt",
       "date": "2026-11-28",
       "time": "18:45",
       "homeTeam": "De Linge/PCG H3",
       "awayTeam": "De Houtrib H2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Vera",
       "rawText": "Vera"
     },
     {
-      "id": "duty-64-gerrit-jr-0e1td",
+      "id": "duty-121-gerrit-jr-nmzpk",
       "date": "2026-11-28",
       "time": "19:30",
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "De Treffers Da2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel", "Toezichthouder", "Reanimatie"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder",
+        "Reanimatie"
+      ],
       "person": "Gerrit Jr",
       "rawText": "Gerrit Jr"
     },
     {
-      "id": "duty-56-michel-stasse-f8n8a",
+      "id": "duty-92-michel-stasse-3w21a",
       "date": "2026-11-28",
       "time": "19:30",
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "Aqua-Novio'94 GO14-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Reanimatie"],
+      "roles": [
+        "Reanimatie"
+      ],
       "person": "Michel Stasse",
       "rawText": "Michel Stasse"
     },
     {
-      "id": "duty-56-nick-h6t2d",
+      "id": "duty-91-nick-b6vwq",
       "date": "2026-11-28",
       "time": "19:30",
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "Aqua-Novio'94 GO14-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Nick",
       "rawText": "Nick"
     },
     {
-      "id": "duty-56-ouders-qjmyg",
+      "id": "duty-90-ouders-luavi",
       "date": "2026-11-28",
       "time": "19:30",
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "Aqua-Novio'94 GO14-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Ouders",
       "rawText": "Ouders"
     },
     {
-      "id": "duty-64-rick-vsmyl",
+      "id": "duty-119-rick-v-b--59mnr",
       "date": "2026-11-28",
       "time": "19:30",
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "De Treffers Da2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
-      "person": "Rick",
-      "rawText": "Rick"
+      "roles": [
+        "W-tafel"
+      ],
+      "person": "Rick v B.",
+      "rawText": "Rick v B."
     },
     {
-      "id": "duty-64-thymen-sqzzd",
+      "id": "duty-120-thymen-s72tu",
       "date": "2026-11-28",
       "time": "19:30",
       "homeTeam": "De Linge/PCG Da1",
       "awayTeam": "De Treffers Da2",
       "pool": "Berenschot Leerdam",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Thymen",
       "rawText": "Thymen"
     },
     {
-      "id": "duty-56-victor-wszr6",
+      "id": "duty-89-victor-ripu5",
       "date": "2026-11-28",
       "time": "19:30",
       "homeTeam": "De Linge/PCG GO14-1",
       "awayTeam": "Aqua-Novio'94 GO14-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter", "Toezichthouder"],
+      "roles": [
+        "Scheidsrechter",
+        "Toezichthouder"
+      ],
       "person": "Victor",
       "rawText": "Victor"
     },
     {
-      "id": "duty-57-gregory-slayc",
+      "id": "duty-95-gregory-rh2vz",
       "date": "2026-11-28",
       "time": "20:15",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Gregory",
       "rawText": "Gregory"
     },
     {
-      "id": "duty-57-jeanette-advokaat-63crp",
+      "id": "duty-94-jeanette-advokaat-elz4s",
       "date": "2026-11-28",
       "time": "20:15",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
     {
-      "id": "duty-57-quint-rticc",
+      "id": "duty-97-quint-jfx1b",
       "date": "2026-11-28",
       "time": "20:15",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Reanimatie"],
+      "roles": [
+        "Reanimatie"
+      ],
       "person": "Quint",
       "rawText": "Quint"
     },
     {
-      "id": "duty-57-rens-2vynr",
+      "id": "duty-96-rens-f4pps",
       "date": "2026-11-28",
       "time": "20:15",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder"
+      ],
       "person": "Rens",
       "rawText": "Rens"
     },
     {
-      "id": "duty-57-victor-3z29b",
+      "id": "duty-93-victor-onnea",
       "date": "2026-11-28",
       "time": "20:15",
       "homeTeam": "De Linge/PCG GO16-1",
       "awayTeam": "HZC de Robben GO16-1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Scheidsrechter"],
+      "roles": [
+        "Scheidsrechter"
+      ],
       "person": "Victor",
       "rawText": "Victor"
     },
     {
-      "id": "duty-58-gregory-9wf0q",
+      "id": "duty-99-gregory-s84l0",
       "date": "2026-11-28",
       "time": "21:15",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "SVH H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Gregory",
       "rawText": "Gregory"
     },
     {
-      "id": "duty-58-jeanette-advokaat-a32e8",
+      "id": "duty-98-jeanette-advokaat-sycxa",
       "date": "2026-11-28",
       "time": "21:15",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "SVH H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel"],
+      "roles": [
+        "W-tafel"
+      ],
       "person": "Jeanette Advokaat",
       "rawText": "Jeanette Advokaat"
     },
     {
-      "id": "duty-58-rens-42d15",
+      "id": "duty-100-rens-amfnh",
       "date": "2026-11-28",
       "time": "21:15",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "SVH H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["W-tafel", "Toezichthouder"],
+      "roles": [
+        "W-tafel",
+        "Toezichthouder"
+      ],
       "person": "Rens",
       "rawText": "Rens"
     },
     {
-      "id": "duty-58-robin-klein-0yeld",
+      "id": "duty-101-robin-klein-fll5h",
       "date": "2026-11-28",
       "time": "21:15",
       "homeTeam": "De Linge/PCG H1",
       "awayTeam": "SVH H1",
       "pool": "Caribabad in Gorinchem",
-      "roles": ["Reanimatie"],
+      "roles": [
+        "Reanimatie"
+      ],
       "person": "Robin Klein",
       "rawText": "Robin Klein"
     }

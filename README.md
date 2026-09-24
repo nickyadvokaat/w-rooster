@@ -24,17 +24,18 @@ Een moderne, snelle en mobielvriendelijke webapplicatie in TypeScript om het wat
 
 - **TypeScript** voor type-safety in zowel scripts als frontend.
 - **Vite** voor snelle builds en bundling naar statische HTML/CSS/JS.
-- **pdf-parse** & **tsx** voor lokale PDF extractie naar `public/data/rooster.json`.
+- **xlsx** & **tsx** voor lokale Excel-extractie naar `public/data/rooster.json`.
 
 ```
 w-rooster/
 ├── files/
-│   └── w-rooster.pdf          # Origineel PDF-rooster
+│   └── rooster.xlsx           # Bronbestand voor het rooster
 ├── public/
-│   └── data/
-│       └── rooster.json       # Gestructureerde data voor de webapp
+│   ├── data/
+│   │   └── rooster.json       # Gestructureerde data voor de webapp
+│   └── w-rooster.pdf          # PDF-export voor GitHub Pages downloadlink
 ├── scripts/
-│   └── parse-pdf.ts           # PDF parser & transformatie script
+│   └── parse-roster.ts        # Excel parser & transformatie script
 ├── src/
 │   ├── ics-builder.ts         # RFC 5545 .ics kalender generator
 │   ├── main.ts                # Frontend applicatielogica
@@ -58,9 +59,9 @@ Installeer de project-dependencies:
 npm install
 ```
 
-### 2. PDF Rooster parsen
+### 2. Excel-rooster parsen
 
-Zet `files/w-rooster.pdf` om naar `public/data/rooster.json`:
+Zet `files/rooster.xlsx` om naar `public/data/rooster.json`:
 
 ```bash
 npm run parse
@@ -92,11 +93,11 @@ npm run preview
 
 ---
 
-## 🔄 Nieuw PDF Rooster updaten
+## 🔄 Nieuw Excel-rooster updaten
 
 Wanneer er een nieuw rooster beschikbaar is (bijvoorbeeld voor de 2e seizoenshelft):
 
-1. Vervang het bestand `files/w-rooster.pdf` door het nieuwe PDF-bestand.
+1. Vervang het bestand `files/rooster.xlsx` door het nieuwe Excel-bestand.
 2. Voer het parse-script uit:
    ```bash
    npm run parse
@@ -105,7 +106,7 @@ Wanneer er een nieuw rooster beschikbaar is (bijvoorbeeld voor de 2e seizoenshel
 4. Bouw de productiebundel en commit de wijzigingen:
    ```bash
    npm run build
-   git add files/w-rooster.pdf public/data/rooster.json
+   git add files/rooster.xlsx public/data/rooster.json public/w-rooster.pdf
    git commit -m "Update w-rooster data"
    git push
    ```
