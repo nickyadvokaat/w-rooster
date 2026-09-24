@@ -406,7 +406,7 @@ async function init() {
 
     // Set last updated and season
     if (roosterData.season) {
-      seasonBadge.textContent = `Seizoen ${roosterData.season} · 1e helft`;
+      seasonBadge.textContent = `${roosterData.season} · 1e helft`;
     }
     if (roosterData.lastUpdated) {
       lastUpdatedText.textContent = `Laatste update: ${formatLastUpdated(roosterData.lastUpdated)}`;
