@@ -103,6 +103,20 @@ function formatLastUpdated(isoString: string): string {
   }
 }
 
+function getPoolDisplayName(pool: string): string {
+  const normalized = (pool || '').toLowerCase();
+
+  if (normalized.includes('caribabad')) {
+    return 'Bataafsekade 8, 4204 AX Gorinchem';
+  }
+
+  if (normalized.includes('berenschot') || normalized.includes('leerdam')) {
+    return 'Tiendweg 9, 4142 EG Leerdam';
+  }
+
+  return pool || 'Locatie niet gespecificeerd';
+}
+
 /**
  * Filter persons list based on search input
  */
@@ -289,65 +303,87 @@ function renderDutiesList() {
     return;
   }
 
+  const dutiesByDate = new Map<string, typeof duties>();
   for (const duty of duties) {
-    const card = document.createElement('div');
-    card.className = 'duty-card';
-    card.setAttribute('data-roles', duty.roles.join(' '));
+    const dateKey = duty.date;
+    const existing = dutiesByDate.get(dateKey) ?? [];
+    existing.push(duty);
+    dutiesByDate.set(dateKey, existing);
+  }
 
-    const poolLower = (duty.pool || '').toLowerCase();
-    const isCaribabad = poolLower.includes('caribabad');
-    const isBerenschot = poolLower.includes('berenschot');
-    const poolType = isCaribabad
-      ? 'caribabad'
-      : isBerenschot
-        ? 'berenschot'
-        : 'home';
-    card.setAttribute('data-pool', poolType);
+  for (const [dateKey, dateDuties] of dutiesByDate.entries()) {
+    const group = document.createElement('div');
+    group.className = 'date-group';
 
-    const formattedDate = formatDutchDate(duty.date);
-    const roleBadgesHtml = duty.roles
-      .map((role) => {
-        const roleBadgeClass = `role-badge-${role.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
-        return `<span class="role-badge ${roleBadgeClass}">${role}</span>`;
-      })
-      .join('');
+    const header = document.createElement('div');
+    header.className = 'date-group-header';
+    header.textContent = formatDutchDate(dateKey);
+    group.appendChild(header);
 
-    const isLingeHome = duty.homeTeam.includes('De Linge/PCG');
-    const isLingeAway = duty.awayTeam.includes('De Linge/PCG');
+    const cards = document.createElement('div');
+    cards.className = 'date-group-cards';
 
-    const homeHtml = isLingeHome
-      ? `<span class="team-lingepcg">${duty.homeTeam}</span>`
-      : `<span>${duty.homeTeam}</span>`;
+    for (const duty of dateDuties) {
+      const card = document.createElement('div');
+      card.className = 'duty-card';
+      card.setAttribute('data-roles', duty.roles.join(' '));
 
-    const awayHtml = isLingeAway
-      ? `<span class="team-lingepcg">${duty.awayTeam}</span>`
-      : `<span>${duty.awayTeam}</span>`;
+      const poolLower = (duty.pool || '').toLowerCase();
+      const isCaribabad = poolLower.includes('caribabad');
+      const isBerenschot = poolLower.includes('berenschot');
+      const poolType = isCaribabad
+        ? 'caribabad'
+        : isBerenschot
+          ? 'berenschot'
+          : 'home';
+      card.setAttribute('data-pool', poolType);
 
-    card.innerHTML = `
-      <div class="duty-card-header">
-        <div class="duty-datetime">
-          <span class="duty-date">${formattedDate}</span>
-          <span class="duty-time">${duty.time} uur</span>
+      const roleBadgesHtml = duty.roles
+        .map((role) => {
+          const roleBadgeClass = `role-badge-${role.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
+          return `<span class="role-badge ${roleBadgeClass}">${role}</span>`;
+        })
+        .join('');
+
+      const isLingeHome = duty.homeTeam.includes('De Linge/PCG');
+      const isLingeAway = duty.awayTeam.includes('De Linge/PCG');
+
+      const homeHtml = isLingeHome
+        ? `<span class="team-lingepcg">${duty.homeTeam}</span>`
+        : `<span>${duty.homeTeam}</span>`;
+
+      const awayHtml = isLingeAway
+        ? `<span class="team-lingepcg">${duty.awayTeam}</span>`
+        : `<span>${duty.awayTeam}</span>`;
+
+      card.innerHTML = `
+        <div class="duty-card-header">
+          <div class="duty-datetime">
+            <span class="duty-time">${duty.time} uur</span>
+          </div>
+          <div class="duty-roles">
+            ${roleBadgesHtml}
+          </div>
         </div>
-        <div class="duty-roles">
-          ${roleBadgesHtml}
+
+        <div class="match-teams">
+          ${homeHtml}
+          <span class="vs-badge">vs</span>
+          ${awayHtml}
         </div>
-      </div>
 
-      <div class="match-teams">
-        ${homeHtml}
-        <span class="vs-badge">vs</span>
-        ${awayHtml}
-      </div>
+        <div class="duty-pool pool-${poolType}">
+          <span class="pool-dot"></span>
+          <span class="pool-icon">📍</span>
+          <span class="pool-name">${getPoolDisplayName(duty.pool)}</span>
+        </div>
+      `;
 
-      <div class="duty-pool pool-${poolType}">
-        <span class="pool-dot"></span>
-        <span class="pool-icon">📍</span>
-        <span class="pool-name">${duty.pool || 'Locatie niet gespecificeerd'}</span>
-      </div>
-    `;
+      cards.appendChild(card);
+    }
 
-    dutiesListContainer.appendChild(card);
+    group.appendChild(cards);
+    dutiesListContainer.appendChild(group);
   }
 }
 
@@ -370,7 +406,7 @@ async function init() {
 
     // Set last updated and season
     if (roosterData.season) {
-      seasonBadge.textContent = `Seizoen ${roosterData.season}`;
+      seasonBadge.textContent = `Seizoen ${roosterData.season} · 1e helft`;
     }
     if (roosterData.lastUpdated) {
       lastUpdatedText.textContent = `Laatste update: ${formatLastUpdated(roosterData.lastUpdated)}`;
@@ -453,7 +489,7 @@ async function init() {
       const personDuties = roosterData.duties.filter(
         (d) => d.person === selectedPerson,
       );
-      downloadIcsFile(selectedPerson, personDuties);
+      downloadIcsFile(selectedPerson, personDuties, roosterData.duties);
     });
 
     // Filter tab buttons

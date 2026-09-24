@@ -489,6 +489,27 @@ body {
 .duties-list {
   display: flex;
   flex-direction: column;
+  gap: 0.8rem;
+}
+
+.date-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.date-group-header {
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  padding: 0.25rem 0.25rem 0;
+}
+
+.date-group-cards {
+  display: flex;
+  flex-direction: column;
   gap: 0.65rem;
 }
 
@@ -709,6 +730,25 @@ body {
   border-radius: 3px;
   font-family: inherit;
   font-size: 0.75rem;
+}
+
+.pdf-link-row {
+  margin: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.pdf-link-row a {
+  display: inline-block;
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.83rem;
+  text-decoration: none;
+}
+
+.pdf-link-row a:hover {
+  color: var(--text-main);
+  text-decoration: underline;
 }
 
 /* Footer */

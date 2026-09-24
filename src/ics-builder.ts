@@ -14,6 +14,26 @@ function formatIcsDateTime(date: Date): string {
   return `${year}${month}${day}T${hours}${minutes}${seconds}`;
 }
 
+function getPoolDisplayName(pool: string): string {
+  const normalized = (pool || '').toLowerCase();
+
+  if (normalized.includes('caribabad')) {
+    return 'Bataafsekade 8, 4204 AX Gorinchem';
+  }
+
+  if (normalized.includes('berenschot') || normalized.includes('leerdam')) {
+    return 'Tiendweg 9, 4142 EG Leerdam';
+  }
+
+  return pool || 'Zwembad';
+}
+
+function createMatchKey(duty: DutyAssignment): string {
+  return [duty.date, duty.time, duty.homeTeam, duty.awayTeam, duty.pool]
+    .map((value) => value.trim().toLowerCase())
+    .join('|');
+}
+
 /**
  * Format a Date object into UTC timestamp: YYYYMMDDTHHMMSSZ
  */
@@ -84,6 +104,7 @@ function getMatchDates(duty: DutyAssignment): { start: Date; end: Date } {
 export function generateIcs(
   personName: string,
   duties: DutyAssignment[],
+  allDuties: DutyAssignment[] = duties,
 ): string {
   const now = new Date();
   const dtStamp = formatUtcTimestamp(now);
@@ -116,17 +137,57 @@ export function generateIcs(
     'END:VTIMEZONE',
   ];
 
+  const roleOrder: Array<'Scheidsrechter' | 'W-tafel' | 'Toezichthouder' | 'Reanimatie'> = [
+    'Scheidsrechter',
+    'W-tafel',
+    'Toezichthouder',
+    'Reanimatie',
+  ];
+
   for (const duty of duties) {
     const { start, end } = getMatchDates(duty);
     const startStr = formatIcsDateTime(start);
     const endStr = formatIcsDateTime(end);
     const uid = `${duty.id}@w-rooster.delinge-pcg.nl`;
 
+    const matchAssignments = allDuties.filter(
+      (otherDuty) => createMatchKey(otherDuty) === createMatchKey(duty),
+    );
+
     const rolesSummary = duty.roles.join(' & ');
     const rolesDetail = duty.roles.join(', ');
     const summary = `${rolesSummary}: ${duty.homeTeam} - ${duty.awayTeam}`;
-    const description = `Dienst: ${rolesDetail}\nWedstrijd: ${duty.homeTeam} vs ${duty.awayTeam}\nDatum: ${duty.date}\nTijd: ${duty.time}\nZwembad: ${duty.pool}`;
-    const location = duty.pool || 'Zwembad';
+
+    const assignmentLines = roleOrder
+      .map((role) => {
+        const people = Array.from(
+          new Set(
+            matchAssignments
+              .filter((assignment) => assignment.roles.includes(role))
+              .map((assignment) => assignment.person),
+          ),
+        ).sort((a, b) => a.localeCompare(b, 'nl'));
+
+        if (people.length === 0) {
+          return null;
+        }
+
+        return `${role}: ${people.join(', ')}`;
+      })
+      .filter((line): line is string => Boolean(line));
+
+    const description = [
+      `Dienst: ${rolesDetail}`,
+      `Wedstrijd: ${duty.homeTeam} vs ${duty.awayTeam}`,
+      `Datum: ${duty.date}`,
+      `Tijd: ${duty.time}`,
+      `Zwembad: ${getPoolDisplayName(duty.pool)}`,
+      '',
+      'Toegewezen personen voor deze wedstrijd:',
+      ...assignmentLines,
+    ].join('\n');
+
+    const location = getPoolDisplayName(duty.pool);
 
     lines.push('BEGIN:VEVENT');
     lines.push(`UID:${uid}`);
@@ -152,8 +213,9 @@ export function generateIcs(
 export function downloadIcsFile(
   personName: string,
   duties: DutyAssignment[],
+  allDuties: DutyAssignment[] = duties,
 ): void {
-  const icsContent = generateIcs(personName, duties);
+  const icsContent = generateIcs(personName, duties, allDuties);
   const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
   const url = URL.createObjectURL(blob);
 
